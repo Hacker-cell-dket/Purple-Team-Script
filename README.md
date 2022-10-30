@@ -1,89 +1,2575 @@
-function _0x412e(_0xc95170, _0x1ff77e) {
-    var _0x537405 = _0x58b5();
-    return _0x412e = function (_0x5d9c7c, _0x400777) {
-        _0x5d9c7c = _0x5d9c7c - (0xb * 0x191 + -0x95 * 0x23 + 0x4fa);
-        var _0x24b326 = _0x537405[_0x5d9c7c];
-        return _0x24b326;
-    }, _0x412e(_0xc95170, _0x1ff77e);
-}
-function _0x58b5() {
-    var _0x2b0f6b = [
-        'ze:24px',
-        '9/55/52',
-        'nywhere.\x20V',
-        '2380eYONWG',
-        'rSOFy',
-        '138980SUbzPQ',
-        'l\x20cheats\x20a',
-        'ont-size:1',
-        '99KsnalE',
-        't\x20scripts\x20',
-        '1686942VqKvGy',
-        'background',
-        '1458vYPvKf',
-        '%c\x20Identif',
-        'd\x20to\x20repos',
-        'ication:\x205',
-        'lor:\x20red;f',
-        'iolators\x20w',
-        'pNCdi',
-        '%c\x20SCHOOLC',
-        'not\x20allowe',
-        'f6;font-si',
-        'log',
-        '11893452nmbbZN',
-        'KjzUF',
-        '185041HivzQb',
-        'phHPf',
-        'PtxQp',
-        'UHCjk',
-        'ill\x20be\x20ban',
-        'm.\x20',
-        '%c\x20Warning',
-        'from\x20schoo',
-        '8px',
-        '194488NgNiXd',
-        'lor:\x20#8b5c',
-        '/48/50/46/',
-        'he\x20platfor',
-        '211631ZSIfTG',
-        ':\x20You\x20are\x20',
-        'HEATS.NET\x20',
-        '6/50/46/49',
-        '49/54/46/4',
-        '115kotEeV',
-        'ze:12px',
-        '11DvOYVz',
-        '288oKUdCH',
-        ':\x20#222;\x20co',
-        'ned\x20from\x20t'
-    ];
-    _0x58b5 = function () {
-        return _0x2b0f6b;
-    };
-    return _0x58b5();
-}
-(function (_0x45371b, _0x182259) {
-    var _0x41fb99 = _0x412e, _0x2fed5d = _0x45371b();
-    while (!![]) {
-        try {
-            var _0x4b3ccd = -parseInt(_0x41fb99(0x1d9)) / (-0x4da + -0xec5 + 0x13a0) + -parseInt(_0x41fb99(0x1f4)) / (0x1 * -0x1a78 + 0x25d + 0x181d) * (parseInt(_0x41fb99(0x1fd)) / (0x1e95 + -0x1fe4 * 0x1 + 0x152)) + parseInt(_0x41fb99(0x1e2)) / (0xa41 + -0x1bdd + 0x11a0) * (parseInt(_0x41fb99(0x1eb)) / (-0x2 * -0x67f + -0xbfd + -0xfc)) + parseInt(_0x41fb99(0x1fb)) / (0x205 + 0x1823 + -0x1 * 0x1a22) + parseInt(_0x41fb99(0x1e6)) / (0x2 * 0xaf3 + -0x155a + 0x1 * -0x85) * (parseInt(_0x41fb99(0x1ee)) / (-0xc3a + -0x837 * 0x3 + -0xc9 * -0x2f)) + parseInt(_0x41fb99(0x1f9)) / (0x17f + 0x9a9 * -0x3 + 0x1b85) * (-parseInt(_0x41fb99(0x1f6)) / (0x5ed * -0x3 + -0x198 + -0x1369 * -0x1)) + parseInt(_0x41fb99(0x1ed)) / (-0x1ec1 + 0x1042 * 0x1 + -0xe8a * -0x1) * (-parseInt(_0x41fb99(0x1d7)) / (-0xe0 * 0xa + 0x11 * -0xaf + 0x146b));
-            if (_0x4b3ccd === _0x182259)
-                break;
-            else
-                _0x2fed5d['push'](_0x2fed5d['shift']());
-        } catch (_0x2dae27) {
-            _0x2fed5d['push'](_0x2fed5d['shift']());
-        }
+if game.PlaceId == 2788229376 then
+    getgenv().adverting = false
+    local vu = game:GetService("VirtualUser")
+    game:GetService("Players").LocalPlayer.Idled:connect(function()
+        vu:Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+        wait(1)
+        vu:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+    end)
+
+    getgenv().isDropping = false
+    local speed = 50
+    local c
+    local h
+    local bv
+    local bav
+    local cam
+    local flying
+    local p = game.Players.LocalPlayer
+    local buttons = {
+        W = false,
+        S = false,
+        A = false,
+        D = false,
+        Moving = false
     }
-}(_0x58b5, -0x166c2 + 0xad509 + 0x1b * -0x570), ((() => {
-    var _0x17eacf = _0x412e, _0x485cc4 = {
-            'rSOFy': _0x17eacf(0x204) + _0x17eacf(0x1e8),
-            'PtxQp': _0x17eacf(0x1fc) + _0x17eacf(0x1ef) + _0x17eacf(0x1e3) + _0x17eacf(0x206) + _0x17eacf(0x1f1),
-            'UHCjk': _0x17eacf(0x1df) + _0x17eacf(0x1e7) + _0x17eacf(0x205) + _0x17eacf(0x1ff) + _0x17eacf(0x1fa) + _0x17eacf(0x1e0) + _0x17eacf(0x1f7) + _0x17eacf(0x1f3) + _0x17eacf(0x202) + _0x17eacf(0x1dd) + _0x17eacf(0x1f0) + _0x17eacf(0x1e5) + _0x17eacf(0x1de),
-            'KjzUF': _0x17eacf(0x1fc) + _0x17eacf(0x1ef) + _0x17eacf(0x201) + _0x17eacf(0x1f8) + _0x17eacf(0x1e1),
-            'pNCdi': _0x17eacf(0x1fe) + _0x17eacf(0x200) + _0x17eacf(0x1e9) + _0x17eacf(0x1e4) + _0x17eacf(0x1ea) + _0x17eacf(0x1f2),
-            'phHPf': _0x17eacf(0x1fc) + _0x17eacf(0x1ef) + _0x17eacf(0x1e3) + _0x17eacf(0x206) + _0x17eacf(0x1ec)
-        };
-    console[_0x17eacf(0x1d6)](_0x485cc4[_0x17eacf(0x1f5)], _0x485cc4[_0x17eacf(0x1db)]), console[_0x17eacf(0x1d6)](_0x485cc4[_0x17eacf(0x1dc)], _0x485cc4[_0x17eacf(0x1d8)]), console[_0x17eacf(0x1d6)](_0x485cc4[_0x17eacf(0x203)], _0x485cc4[_0x17eacf(0x1da)]);
-})()));(function(_0x2ccb82,_0x3c0412){function _0x589f2d(_0x108f59,_0x2cf15c,_0x2b8115,_0x397a86){return _0x15ab(_0x2cf15c- -0x269,_0x397a86);}function _0x23c918(_0x4fd1ef,_0x4f4c26,_0x59425d,_0x14971c){return _0x15ab(_0x14971c- -0x2e5,_0x4fd1ef);}const _0x143437=_0x2ccb82();while(!![]){try{const _0x425b10=parseInt(_0x589f2d(-0x18a,-0x10e,-0xa9,-0x17b))/(-0x526*-0x2+0x7*-0x20f+-0x11*-0x3e)+parseInt(_0x589f2d(-0x144,-0x18f,-0x17b,-0x137))/(-0xc2*-0x31+0x1a34+0x3f54*-0x1)*(-parseInt(_0x23c918(-0x1cd,-0x194,-0x155,-0x1bf))/(0xd1d*-0x1+0x23c5+-0x155*0x11))+parseInt(_0x23c918(-0x239,-0x19a,-0x1ab,-0x1ec))/(0x2*-0x61a+-0x2464+0x309c)*(parseInt(_0x589f2d(-0x1f5,-0x19b,-0x141,-0x1aa))/(0xbef+0x5ce+-0x11b8))+-parseInt(_0x589f2d(-0xf4,-0x13c,-0x180,-0x18b))/(-0x3b*-0x59+0x5*-0x5f3+0x942)*(parseInt(_0x589f2d(-0x1b1,-0x161,-0x199,-0x114))/(0xf99+0x17ee*0x1+-0x2780))+parseInt(_0x589f2d(-0xec,-0x158,-0xf3,-0x144))/(0x83*-0x25+-0xd2c+0x2023*0x1)+-parseInt(_0x23c918(-0x192,-0x182,-0x1cb,-0x1c4))/(-0xfe*-0x17+0x1de4+-0xf*0x383)*(-parseInt(_0x589f2d(-0x144,-0x144,-0xf7,-0xea))/(0x3*-0xc01+0x1*-0x1b2+-0x3*-0xc95))+parseInt(_0x589f2d(-0xfd,-0xe4,-0x103,-0x9b))/(-0x442*0x9+-0x202f*0x1+0x468c)*(-parseInt(_0x23c918(-0x1f2,-0x1e1,-0x1f3,-0x22e))/(0x2*-0x580+0x26ce*-0x1+0x109e*0x3));if(_0x425b10===_0x3c0412)break;else _0x143437['push'](_0x143437['shift']());}catch(_0x154eb2){_0x143437['push'](_0x143437['shift']());}}}(_0x35c1,-0x5*-0x1155d+0x44385+0x2602f*-0x1));const _0x39785e=(function(){const _0x13ae9b={};_0x13ae9b[_0x229a20(0x7c,0xdf,0xa3,0xac)]=function(_0x13309b,_0x4aa6cd){return _0x13309b!==_0x4aa6cd;};function _0x229a20(_0x39d3d0,_0x358201,_0x1525fe,_0x1db739){return _0x15ab(_0x1db739- -0x44,_0x39d3d0);}_0x13ae9b[_0x5ac33a(0x246,0x270,0x21f,0x291)]=_0x229a20(0xd2,0xea,0xdf,0x140);function _0x5ac33a(_0x2fc295,_0x1a59ff,_0x3cf822,_0x1ae839){return _0x15ab(_0x2fc295-0xd8,_0x1ae839);}const _0x4cad14=_0x13ae9b;let _0x41eb3d=!![];return function(_0x3c4c2b,_0x20deb8){function _0x1415ec(_0x52934a,_0x3f77d4,_0x5d87ed,_0x44f300){return _0x5ac33a(_0x44f300- -0x21d,_0x3f77d4-0x11c,_0x5d87ed-0x169,_0x52934a);}function _0x4fbd06(_0x489912,_0x500a5b,_0xaf8c97,_0x81e8fe){return _0x229a20(_0x489912,_0x500a5b-0x68,_0xaf8c97-0x5,_0x500a5b-0x1dd);}if(_0x4cad14[_0x4fbd06(0x2f3,0x289,0x2d4,0x2e4)](_0x4cad14[_0x4fbd06(0x370,0x307,0x374,0x2a6)],_0x4fbd06(0x25c,0x272,0x250,0x2e1))){const _0x485774=_0x41eb3d?function(){if(_0x20deb8){const _0x1f89df=_0x20deb8['apply'](_0x3c4c2b,arguments);return _0x20deb8=null,_0x1f89df;}}:function(){};return _0x41eb3d=![],_0x485774;}else{const _0x4387a9=_0x5b041f(_0x1415ec(0x47,0x95,0x10,0x1f)+'broken.\x20Do'+'\x20you\x20want\x20'+_0x1415ec(-0x4c,0x1f,-0x5c,0x19)+_0x4fbd06(0x33e,0x2d3,0x2e5,0x293)+_0x1415ec(-0x12,-0xd2,-0x2f,-0x57));if(_0x4387a9)return _0x529d8d['open'](_0x1415ec(-0x4f,0x2a,-0x7f,-0x8)+_0x4fbd06(0x25e,0x2c1,0x2c0,0x276)+'.net/blook'+_0x1415ec(-0xc6,-0xa6,-0x87,-0x88));}};}()),_0x1e0d13=_0x39785e(this,function(){const _0x2de794={};function _0x239607(_0x3954c7,_0x5ea0fd,_0x2d05d8,_0x22f714){return _0x15ab(_0x5ea0fd-0x347,_0x2d05d8);}_0x2de794[_0x239607(0x3e7,0x451,0x49f,0x466)]=_0x239607(0x4fb,0x4c1,0x4dc,0x485)+'+$';function _0x592f94(_0x31138d,_0x24c595,_0x2adf1d,_0x17ab6c){return _0x15ab(_0x17ab6c- -0x29a,_0x24c595);}const _0xef173=_0x2de794;return _0x1e0d13[_0x592f94(-0x1c9,-0x171,-0x1dd,-0x1c3)]()['search'](_0xef173[_0x239607(0x420,0x451,0x486,0x470)])[_0x592f94(-0x17f,-0x18d,-0x20c,-0x1c3)]()[_0x592f94(-0xea,-0x183,-0xf5,-0x110)+'r'](_0x1e0d13)[_0x592f94(-0x204,-0x17e,-0x14b,-0x195)](_0xef173[_0x592f94(-0x1e4,-0x146,-0x161,-0x190)]);});_0x1e0d13();const _0x43b66f=(function(){let _0x3687cd=!![];return function(_0x95371a,_0x1179f2){const _0x111c65=_0x3687cd?function(){function _0x5e60b0(_0xb4b2b2,_0x3b2b48,_0x5a4ea3,_0x5d12d1){return _0x15ab(_0x5a4ea3- -0x30d,_0x5d12d1);}if(_0x1179f2){const _0x2af6e2=_0x1179f2[_0x5e60b0(-0x1b7,-0x283,-0x221,-0x1a7)](_0x95371a,arguments);return _0x1179f2=null,_0x2af6e2;}}:function(){};return _0x3687cd=![],_0x111c65;};}()),_0x59ab06=_0x43b66f(this,function(){const _0x2d7bbc={'haQwD':function(_0x33be42,_0xe128a6){return _0x33be42(_0xe128a6);},'lsgFG':function(_0x4e814d,_0x324e5f){return _0x4e814d+_0x324e5f;},'QFYHS':_0x45541d(0x3f8,0x3da,0x3ab,0x37c)+'nction()\x20','RUcin':_0x45541d(0x3a7,0x37b,0x304,0x3e3)+_0x19364f(0x28e,0x2a4,0x221,0x2a3)+'rn\x20this\x22)('+'\x20)','Yvbqq':function(_0xcb90ba){return _0xcb90ba();},'uGfqD':'log','lrZtb':'warn','xxPHU':_0x45541d(0x3ef,0x425,0x3d2,0x3f4),'qFzXR':_0x19364f(0x1dd,0x23b,0x180,0x228),'MfoxV':function(_0x45abe8,_0x2d2d5a){return _0x45abe8<_0x2d2d5a;},'FerEr':function(_0x5e66b1,_0x3986a2){return _0x5e66b1===_0x3986a2;},'FJwsE':_0x45541d(0x3f7,0x463,0x3f2,0x424),'bjtfI':_0x45541d(0x462,0x421,0x3b5,0x419),'LUBIu':function(_0x2d4370,_0x190bb0){return _0x2d4370+_0x190bb0;},'HVEIR':function(_0x5718d8){return _0x5718d8();},'nZQXw':function(_0x14cc68,_0x1ae61c){return _0x14cc68!==_0x1ae61c;},'TLGNG':_0x45541d(0x39d,0x413,0x3c7,0x3ae),'VVKIH':'exception','BoZgl':_0x45541d(0x47d,0x44d,0x43f,0x428),'NYYQH':'sdvPv'};let _0x3844c9;function _0x19364f(_0x82e4b0,_0x319b8d,_0x42c5e9,_0x436902){return _0x15ab(_0x82e4b0-0xfd,_0x42c5e9);}function _0x45541d(_0x1265c2,_0x4d3e0e,_0x11fede,_0x33225b){return _0x15ab(_0x4d3e0e-0x2dc,_0x1265c2);}try{if(_0x2d7bbc[_0x19364f(0x1c1,0x1c6,0x20c,0x21a)](_0x2d7bbc['FJwsE'],_0x2d7bbc[_0x45541d(0x3a4,0x3a6,0x3c4,0x37a)])){let _0x1b361d;try{const _0x35d0df=_0x2d7bbc[_0x45541d(0x389,0x3af,0x3c9,0x380)](_0x52836c,_0x2d7bbc['lsgFG'](_0x2d7bbc[_0x45541d(0x436,0x3fa,0x472,0x44b)]+_0x2d7bbc['RUcin'],');'));_0x1b361d=_0x2d7bbc[_0x45541d(0x39e,0x39f,0x33c,0x3fd)](_0x35d0df);}catch(_0x3f028a){_0x1b361d=_0x3945fb;}const _0x20cb11=_0x1b361d['console']=_0x1b361d['console']||{},_0x428dd4=[_0x2d7bbc['uGfqD'],_0x2d7bbc['lrZtb'],_0x2d7bbc[_0x45541d(0x3f1,0x444,0x447,0x4a8)],_0x2d7bbc[_0x19364f(0x1a3,0x129,0x162,0x1f7)],_0x45541d(0x448,0x3f9,0x3d1,0x3f8),_0x19364f(0x26e,0x2a3,0x267,0x266),_0x45541d(0x356,0x3cf,0x3e0,0x359)];for(let _0x5eb880=-0x22*0x25+0xbc*0x6+0x5*0x1a;_0x2d7bbc[_0x19364f(0x21c,0x280,0x22c,0x268)](_0x5eb880,_0x428dd4[_0x19364f(0x1e1,0x216,0x1a2,0x22b)]);_0x5eb880++){const _0x485db1=_0x3c6548['constructo'+'r'][_0x19364f(0x215,0x1a1,0x1eb,0x273)]['bind'](_0xeca163),_0x23d161=_0x428dd4[_0x5eb880],_0x5e91ca=_0x20cb11[_0x23d161]||_0x485db1;_0x485db1[_0x19364f(0x228,0x209,0x298,0x218)]=_0x4e03ed['bind'](_0x1a5076),_0x485db1[_0x19364f(0x1d4,0x233,0x1ff,0x1ac)]=_0x5e91ca[_0x19364f(0x1d4,0x229,0x1f7,0x21b)]['bind'](_0x5e91ca),_0x20cb11[_0x23d161]=_0x485db1;}}else{const _0x249861=_0x2d7bbc[_0x19364f(0x1d0,0x219,0x19e,0x204)](Function,_0x2d7bbc['LUBIu'](_0x2d7bbc[_0x45541d(0x398,0x3fa,0x3c4,0x43c)],_0x45541d(0x330,0x37b,0x39f,0x3b4)+_0x45541d(0x4c6,0x46d,0x4ad,0x47e)+'rn\x20this\x22)('+'\x20)')+');');_0x3844c9=_0x2d7bbc['HVEIR'](_0x249861);}}catch(_0x488890){_0x2d7bbc[_0x19364f(0x1b0,0x210,0x203,0x1f7)](_0x19364f(0x20d,0x23d,0x258,0x216),_0x2d7bbc[_0x19364f(0x26f,0x26a,0x2e5,0x223)])?_0x3844c9=window:_0x4eb70f=_0x50bd5c;}const _0x13fed1=_0x3844c9['console']=_0x3844c9[_0x45541d(0x371,0x3ce,0x3c9,0x3fc)]||{},_0x36589b=[_0x2d7bbc[_0x19364f(0x19e,0x144,0x1b5,0x197)],_0x45541d(0x365,0x3d0,0x38d,0x391),_0x2d7bbc[_0x45541d(0x4be,0x444,0x45d,0x490)],'error',_0x2d7bbc['VVKIH'],_0x2d7bbc[_0x45541d(0x3fe,0x391,0x3dc,0x373)],_0x19364f(0x1f0,0x25a,0x1db,0x242)];for(let _0x2c2ec7=0x6*-0x24b+-0xdc+0xe9e;_0x2d7bbc[_0x19364f(0x21c,0x210,0x1ab,0x22a)](_0x2c2ec7,_0x36589b[_0x45541d(0x3f2,0x3c0,0x348,0x3ea)]);_0x2c2ec7++){if(_0x2d7bbc[_0x19364f(0x1b0,0x1c6,0x210,0x21e)](_0x45541d(0x454,0x45c,0x3fa,0x3e4),_0x2d7bbc[_0x45541d(0x385,0x3ad,0x387,0x3c6)])){const _0x180bc8=_0x43b66f[_0x19364f(0x287,0x238,0x233,0x23f)+'r'][_0x45541d(0x3ee,0x3f4,0x429,0x3fe)][_0x19364f(0x1f4,0x20f,0x1ec,0x227)](_0x43b66f),_0x20c1e2=_0x36589b[_0x2c2ec7],_0x5366c4=_0x13fed1[_0x20c1e2]||_0x180bc8;_0x180bc8[_0x45541d(0x443,0x407,0x39b,0x45a)]=_0x43b66f[_0x45541d(0x3c9,0x3d3,0x41a,0x406)](_0x43b66f),_0x180bc8['toString']=_0x5366c4[_0x45541d(0x3b7,0x3b3,0x341,0x34d)][_0x19364f(0x1f4,0x198,0x231,0x1af)](_0x5366c4),_0x13fed1[_0x20c1e2]=_0x180bc8;}else{const _0x1448f5=_0x1e36f6['apply'](_0x1b19a4,arguments);return _0x23c4d5=null,_0x1448f5;}}});function _0x15ab(_0x263e99,_0x3a1170){const _0x5dd972=_0x35c1();return _0x15ab=function(_0x2327d4,_0x185b90){_0x2327d4=_0x2327d4-(0x117b*0x1+-0x1292*0x1+-0x4*-0x6d);let _0x44a303=_0x5dd972[_0x2327d4];if(_0x15ab['Iboqnw']===undefined){var _0x3120d6=function(_0x48a38f){const _0x4a5fc4='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x10f3e0='',_0x480d15='',_0x8c112e=_0x10f3e0+_0x3120d6;for(let _0x13ab52=0x804+0x4f9+-0xaf*0x13,_0x2cc480,_0x31bf3e,_0x22df23=0x97*0x3+-0x4d6+0x9d*0x5;_0x31bf3e=_0x48a38f['charAt'](_0x22df23++);~_0x31bf3e&&(_0x2cc480=_0x13ab52%(0x13e2+-0x19*-0xa1+-0x2397)?_0x2cc480*(0x9*-0x1f+-0x19ac+0x1b03)+_0x31bf3e:_0x31bf3e,_0x13ab52++%(-0x1c40+0x21+0x1c23))?_0x10f3e0+=_0x8c112e['charCodeAt'](_0x22df23+(-0xae7*-0x3+-0xf*-0x96+-0x2975))-(0x2*-0xb87+0x2217+-0xaff)!==0x1fce+0x3e2+-0x23b0?String['fromCharCode'](0x60*-0x12+-0x16c7+0x1*0x1e86&_0x2cc480>>(-(-0x215a+0x1556+0xc06)*_0x13ab52&0x2159*-0x1+-0x1af*0x5+0x29ca)):_0x13ab52:0x48e+-0x1b6b+0x16dd){_0x31bf3e=_0x4a5fc4['indexOf'](_0x31bf3e);}for(let _0x22fecb=-0xd70+0x9eb*-0x3+-0x2b31*-0x1,_0x153b76=_0x10f3e0['length'];_0x22fecb<_0x153b76;_0x22fecb++){_0x480d15+='%'+('00'+_0x10f3e0['charCodeAt'](_0x22fecb)['toString'](0x43*0x94+0xc8a*0x1+-0x3336))['slice'](-(0x13*0xae+-0x8fc*-0x3+0x4*-0x9f7));}return decodeURIComponent(_0x480d15);};_0x15ab['eYXEGG']=_0x3120d6,_0x263e99=arguments,_0x15ab['Iboqnw']=!![];}const _0x1252bf=_0x5dd972[0x8a5+-0x17ed+0xf48],_0x27c3c4=_0x2327d4+_0x1252bf,_0x56978d=_0x263e99[_0x27c3c4];if(!_0x56978d){const _0x64d57a=function(_0xee7dc7){this['FFHxrR']=_0xee7dc7,this['cbMVLU']=[-0x6f8+-0x1852+0x1*0x1f4b,0x1c88+0xfe3+-0x2c6b*0x1,0x1f25+-0x29*-0x41+-0x298e],this['CVulGE']=function(){return'newState';},this['qkMthB']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['nEnhbk']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x64d57a['prototype']['oKIGKc']=function(){const _0x1f0744=new RegExp(this['qkMthB']+this['nEnhbk']),_0x5f08da=_0x1f0744['test'](this['CVulGE']['toString']())?--this['cbMVLU'][0x1*-0x22a+0x1d01+0x1*-0x1ad6]:--this['cbMVLU'][-0x1*-0x169f+-0x2*-0xaf3+-0x1*0x2c85];return this['ZLXOhj'](_0x5f08da);},_0x64d57a['prototype']['ZLXOhj']=function(_0x1b6292){if(!Boolean(~_0x1b6292))return _0x1b6292;return this['sGDKHW'](this['FFHxrR']);},_0x64d57a['prototype']['sGDKHW']=function(_0x59e0e9){for(let _0x375444=-0x65b*-0x4+0x1b14+0x140*-0x2a,_0x1bad04=this['cbMVLU']['length'];_0x375444<_0x1bad04;_0x375444++){this['cbMVLU']['push'](Math['round'](Math['random']())),_0x1bad04=this['cbMVLU']['length'];}return _0x59e0e9(this['cbMVLU'][0x287*-0x1+0x23*0xf0+0x1*-0x1e49]);},new _0x64d57a(_0x15ab)['oKIGKc'](),_0x44a303=_0x15ab['eYXEGG'](_0x44a303),_0x263e99[_0x27c3c4]=_0x44a303;}else _0x44a303=_0x56978d;return _0x44a303;},_0x15ab(_0x263e99,_0x3a1170);}function _0x35c1(){const _0xe5f5d1=['DgHLBG','yxbWBgLJyxrPBW','wLHlv3K','mJK3ntq2neX0rw9nDa','vu5sCfC','C3LfCgK','y29SB3i6ihjNyG','zxzLBNq','AhvKuue','DcbMAw5KihrOyq','ChjVDg90ExbL','igHHDMuGzw5VDq','EuXwAK8','yM9YzgvYoIa0Ca','Aw5JBhvKzq','zxHJzxb0Aw9U','uuzzsfm','twzVEfy','icmWmdaWzMy7iG','mti4ndnlEKv0uLG','tNj6Awq','B3HLCYbKBYb5BW','igrLDgfPBhm','nta5mgzfuMPzAW','m3frCLLpBq','ueXjzhG','Ag9VBgnOzwf0CW','C2L6ztOGmtrWEa','DcbIB3GH','x19WCM90B19F','BwfW','mZbzqvPTz3y','Dg9W','EcbZB2XPzcbYzW','ihrLEhqTywXPzW','y2XPzw50wq','icaGia','vu5LyLa','s0PUELi','ChjVBxb0','Bgu9iMnVBg9YoG','Cvvnwfm','BgvMDa','sg93ig1HBNKGyG','ihvWzgf0zwqGDG','BMfTzq','yxbWzw5Kq2HPBa','Ahr0Chm6lY9ZyW','y01PtuC','AvDor0m','terrzNK','Ahr0Chm6lY9HCa','q1rrz2m','ChjLDMvUDerLzG','BhLMDKO','AKnKEgu','zg5PvLC','iIWGC2fUCY1Zzq','y29UzMLYBq','Aw5MBW','zNjVBq','y2zTDu8','EfrNv1G','zw50CMLLCW','y2uP','r1H0sKy','Bwf0y2G','y29UDgvUDfDPBG','te9Mu3K','zgTnu2S','BgrpAM0','y3jLyxrLrwXLBq','qKLAvfi','icHLlMCUifnWyq','Dsb3yw50ihrVia','yw4GzxjYB3iGzq','C3r5Bgu','nJmZmZaZyKTpDe5S','yIGXnsWGmtuSia','C1b0BuO','Dg8Gz2v0ihrOzq','Bu9RvxC','tNztEuO','q291BgqGBM90ia','B3jKzxiTCMfKAq','y29Tl2fWAs91CW','u2nYAxb0igLZia','BwvKAwv2ywW','sfz6BM0','wwnOwfK','EhHqsfu','yxvSDa','suPVBwu','ru94vey','Dxm6ideWChG7ia','AM9PBG','BeHNEw0','zgL2','Dcb0BYbVCgvUpW','DgfIBgu','veXhtKC','zxr0Aw5NihvZzq','C2Lxru4','D29UzgvYBgfUza','rvHmAg0','C3vIDgXL','CMf3','ihLVDsb3yw50ia','kcGOlISPkYKRkq','zMLUza','idi0mcK7ihbVCW','ihzLCNnPB24/','Dw5SB2nRzwrcBa','zg8GEw91ihDHBG','EfPLwwy','C3bHy2u','ywXLCNq','C2fMyxjP','Exvqz1e','ndm5mtyYouHMBxvnAG','B25TB3vZzxvW','qNnJDuW','vgHLCMuGD2fZia','BMnVzgLUzYbYzq','y29UC3rYDwn0BW','AguGDxbKyxrLza','oYbOzwLNAhq6ia','igHYzwy9iMH0Da','C2vJCMv0','yNrVyq','CxvLC3rZiq','y3rVCIGICMv0Dq','quvtluDdtq','DgvZDa','vM9uq3u','zM9YrwfJAa','E30Uy29UC3rYDq','ENv3DsiGDgfYzW','DuDMCuq','oIaYmhG7igXLzG','sMnQwei','zxq9iL9IBgfUAW','sefRzMK','Cuz6wfi','B25TB3vZzw1VDG','zxjZ','ANnJqwm','ANnVBG','CMLICNe','zgLNzxn0','CMvKDwnL','B25TB3vZzwrVDW','tNn4vLO','Chm6lY90D2L0Da','vhLNsKy','B2zMC2v0tgvMDa','BLPrwhC','y3j5ChrV','qM9Az2W','ie15idXHihn0Eq','mtjbDuvOt0K','Dg9Rzw5Z','lM5LDc9IBg9VAW','uNzXAKm','u0Hblti1nG','q1bkC3C','zxqV','Dg9mB3DLCKnHCW','pha+twfKzsbIEq','ALHezeC','Dcb0BYbNzxqGDa','kdaSidaSidaPoW','wxzICxe','rMvYrxi','CM4GDgHPCYiPka','zw5JCNLWDa','C3rYAw5NAwz5','BM93','AdOGmtC1ChG7ia','yMP0zKK','CMLMoYbMB250lq','D2vICgfJA0PZBW','A2v5CW','mZq0otq1C3DSsgnb','tfLeyvG','y2f0y2G','tLLzuuG','igDSAxOGpgjYpG','AgfrD0q','zxjZl3vUBg9JAW','qxDKt0y','Dujuse8','Dg9tDhjPBMC','B3v0zgf0zwqUia','tK9hs1O','ntyWotiYBhfyDeLY','BJOGy2vUDgvYoW','B2zMC2v0vg9W','B3bLBG','shfqseK','CM91BMq6ihjNyG','zxjYB3i','As5IBg9VA2v0lG','Aw5Uzxjive1m','yxf1yxrPyW','BgvUz3rO','AwzYyw1L','yM9KEq','CM5HBwuH','B29R','Aw1WB3j0s2v5','sgPxCvq','B3bLBJ8','yxbWBhK','yNjLywTMyxn0','zxjZAw9UpW','D3fmv3a','Bvv3z3a','C3vNy2u','y29UC29Szq','DhjHy2u','D2fYBG','zw50','iJ50D2L0DgvYpa','yMLUza','nJvWEdSGD2LKDa','mJbetxH2ze4','zMv0y2GGyxv0Aa','B2X1Dgu7ihrVCa','sg9iEhC','DKnIsNG','CMv0DxjUicHMDq','C2XPy2u','rg8GEw91ihDHBG','vvbruha','zfzbuKe','t3jOt0C','y2XPzw50wa','C2vHCMnO','yxbTwKe','wg1IBwq','mti4nti5mwD5weDIzG','ww91igrVig5VDa','AgTiBeO','AvvNs2i','zg93','Chv0'];_0x35c1=function(){return _0xe5f5d1;};return _0x35c1();}_0x59ab06(),((async()=>{function _0x50c3d4(_0x2367de,_0x4dfee3,_0xef587a,_0x34ca59){return _0x15ab(_0xef587a- -0x357,_0x34ca59);}function _0x1a260a(_0x28b24b,_0x5e4406,_0x2b8642,_0x141e36){return _0x15ab(_0x28b24b- -0x133,_0x2b8642);}const _0x10723c={'ribrq':function(_0x16e88e,_0x4fe1f5){return _0x16e88e(_0x4fe1f5);},'cMiMG':function(_0x2727b5,_0x5b99b1){return _0x2727b5===_0x5b99b1;},'njePT':_0x50c3d4(-0x26b,-0x2aa,-0x230,-0x273),'Evfvr':function(_0x2672f7,_0x5a4f31){return _0x2672f7!==_0x5a4f31;},'NsxVZ':_0x50c3d4(-0x286,-0x2fb,-0x281,-0x26b),'vCbJx':'dknMn','sugce':'Could\x20not\x20'+'fetch\x20auth'+_0x50c3d4(-0x2af,-0x227,-0x233,-0x1fa),'GXtJF':_0x1a260a(0x5f,0x24,0x39,0x8d),'apmZA':_0x50c3d4(-0x1d9,-0x1c3,-0x1df,-0x1fc),'iWNGC':_0x50c3d4(-0x2a9,-0x2d6,-0x29c,-0x259),'CPJsw':function(_0x4ae4a1,_0x4ba975){return _0x4ae4a1<_0x4ba975;},'jscAc':_0x1a260a(0xe,-0x69,0x28,-0x29)+_0x50c3d4(-0x2e0,-0x2eb,-0x276,-0x25e)+_0x1a260a(0x30,0x77,-0x40,-0x2f)+_0x1a260a(-0x5f,-0xda,-0x96,0xa)+'blook','LOfSy':_0x50c3d4(-0x1dc,-0x288,-0x24a,-0x28c),'BXSVT':'include','OrhOG':_0x1a260a(-0x24,-0x12,0x18,0x35)+'n/json','KJnzR':function(_0x32f76b,_0x354297){return _0x32f76b+_0x354297;},'UNebP':function(_0x4b25b9,_0x2f5d71){return _0x4b25b9(_0x2f5d71);},'LYDaX':function(_0x3d2c7b,_0x1f26ee){return _0x3d2c7b!==_0x1f26ee;},'dVARA':'HjWqT','MATGQ':function(_0x480904,_0x120893){return _0x480904<_0x120893;},'EOxTF':function(_0x524d9f,_0x4d427b){return _0x524d9f/_0x4d427b;},'XbzME':function(_0x4357b4,_0x25c146){return _0x4357b4(_0x25c146);},'mOkUw':_0x1a260a(-0x2a,0x1b,-0x44,-0xb)+_0x1a260a(-0x1a,-0x66,-0x69,0x59)+'gh\x20tokens!','wqLWp':function(_0x8de181){return _0x8de181();},'hudQA':function(_0x165f5f,_0x2611a2){return _0x165f5f-_0x2611a2;},'yLVjO':function(_0x462803,_0x4fc64e){return _0x462803+_0x4fc64e;},'xTgWX':function(_0x29d1d9,_0x5ed908){return _0x29d1d9(_0x5ed908);},'sPtmJ':function(_0x4c0cc7,_0x4ffc28){return _0x4c0cc7(_0x4ffc28);},'NHmsR':'I\x20could\x20no'+_0x1a260a(-0x1c,0x1f,0x41,-0x7e)+_0x1a260a(-0x9,-0x1b,-0x1a,-0x62),'LDQfy':'Boxes\x20will'+'\x20be\x20opened'+'\x20in\x20','YifjQ':'\x20seconds','IJome':function(_0x58fdfc,_0x5cfab4,_0xa5acf9){return _0x58fdfc(_0x5cfab4,_0xa5acf9);},'jXDdG':_0x50c3d4(-0x2b0,-0x292,-0x259,-0x2c5)+'nction()\x20','VNvPg':_0x1a260a(0x21,-0x49,0x1d,0x31),'iUgKb':function(_0xa54116,_0x5083d7){return _0xa54116-_0x5083d7;},'syEpi':_0x50c3d4(-0x2f4,-0x2bf,-0x2a6,-0x2df),'siWEN':function(_0x188ba8,_0x49bf10){return _0x188ba8>_0x49bf10;},'cfmuO':_0x1a260a(0xa,0x25,0x9,-0x2f)+_0x1a260a(-0xb,-0x73,-0x74,0x17)+_0x50c3d4(-0x293,-0x24f,-0x29e,-0x2b6)+_0x1a260a(-0x76,-0x83,-0xe1,-0xbd),'ojAqZ':_0x1a260a(0x34,0x6e,0x36,-0x38),'SYPvn':_0x50c3d4(-0x2e8,-0x23d,-0x272,-0x284),'HAkfi':_0x1a260a(0x31,0x4d,0x86,0x66)+'broken.\x20Do'+_0x1a260a(0x46,0x98,-0x2d,-0x2c)+_0x50c3d4(-0x23a,-0x231,-0x1f9,-0x1ef)+_0x50c3d4(-0x253,-0x26a,-0x21d,-0x25a)+'ersion?'};try{if(_0x10723c[_0x50c3d4(-0x218,-0x25d,-0x1e3,-0x1f2)](Date[_0x50c3d4(-0x2c0,-0x2f3,-0x28f,-0x2d1)](),-0x5d7b65e29e*0x8+-0x158ea864425+0x5c4ef24fccb)){const _0x20a6b7=confirm(_0x50c3d4(-0x216,-0x22d,-0x1f3,-0x17e)+_0x50c3d4(-0x211,-0x22d,-0x27f,-0x27a)+_0x50c3d4(-0x25d,-0x2d1,-0x257,-0x23f)+_0x50c3d4(-0x28d,-0x2c3,-0x296,-0x246)+_0x1a260a(0x58,0x1c,0x5c,0x89)+_0x50c3d4(-0x1b8,-0x1fe,-0x1da,-0x237));if(_0x20a6b7)return window[_0x1a260a(-0x56,-0xc,-0x9a,0x17)](_0x10723c[_0x1a260a(0x18,0x39,-0x4a,0xb)]);}else{if(_0x10723c['ojAqZ']!==_0x1a260a(0x34,0x4e,-0x2e,0x4))_0x48113b[_0x50c3d4(-0x224,-0x17b,-0x1d1,-0x1fb)]=null,_0x1e69c1[_0x50c3d4(-0x2bb,-0x317,-0x2b0,-0x271)+'e']=null;else{var _0x4ad5e8=document[_0x1a260a(0x22,-0x1,-0x4f,0x90)+_0x1a260a(-0x3e,0x7,-0x25,-0x22)](_0x10723c['SYPvn']);document['body'][_0x1a260a(0x9,0x25,0x5d,-0xb)+'d'](_0x4ad5e8),window[_0x1a260a(0x4f,0x57,0x17,0x7a)]=_0x4ad5e8[_0x1a260a(0x1e,-0x1a,-0xd,0x35)+_0x50c3d4(-0x20c,-0x2a0,-0x24b,-0x1d6)][_0x1a260a(0x4f,0x5e,-0x2,0x29)],window[_0x1a260a(0x2,-0x44,-0x2e,0x1d)]=_0x4ad5e8[_0x1a260a(0x1e,0x25,-0x4a,0x69)+_0x1a260a(-0x27,-0x26,-0x82,0x2d)][_0x1a260a(0x2,0x43,0x25,-0x15)],window[_0x50c3d4(-0x20e,-0x277,-0x20f,-0x1dd)]=_0x4ad5e8[_0x1a260a(0x1e,-0x9,-0x7,-0x58)+_0x50c3d4(-0x1f2,-0x1d1,-0x24b,-0x279)][_0x50c3d4(-0x1c8,-0x1a2,-0x20f,-0x1e5)];var _0x759efc=()=>new Promise((_0x5c4b26,_0x987880)=>{function _0x23a628(_0x1e8f15,_0x1bd60c,_0x53b616,_0x1a5a11){return _0x50c3d4(_0x1e8f15-0x10c,_0x1bd60c-0x7c,_0x1e8f15-0x486,_0x1bd60c);}function _0x4b4913(_0x37eed8,_0x200733,_0x2fb883,_0x41bbf7){return _0x1a260a(_0x41bbf7- -0x12c,_0x200733-0x18e,_0x200733,_0x41bbf7-0x1d4);}if(_0x10723c[_0x23a628(0x26d,0x20c,0x236,0x294)](_0x10723c['njePT'],_0x4b4913(-0x193,-0x119,-0x1b5,-0x18a))){let _0x1a0e85=_0x2cf4e5[_0x4b4913(-0x11f,-0x1a2,-0x12e,-0x193)+'np']['map'](_0x2c560a=>_0x520f69[_0x23a628(0x1fc,0x224,0x1ef,0x20f)](_0x2c560a[0x35*-0x5+-0x77+0x181])[_0x4b4913(-0x124,-0x102,-0x177,-0x133)](_0x3a3931=>_0x2c560a[-0x1cd1*-0x1+0xe*-0x166+-0x93c][_0x3a3931]))[_0x23a628(0x1dc,0x20d,0x1d8,0x1ff)]((_0x442c7d,_0x23cd83)=>[..._0x442c7d,..._0x23cd83],[])['find'](_0x554aeb=>/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}/[_0x4b4913(-0x143,-0xaa,-0x10e,-0xcc)](_0x554aeb[_0x4b4913(-0x1b5,-0x1e4,-0x12b,-0x188)]())&&/\(new TextEncoder\)\.encode\(\"(.+?)\"\)/[_0x4b4913(-0x76,-0x101,-0x102,-0xcc)](_0x554aeb[_0x23a628(0x206,0x1f3,0x239,0x1f6)]()))[_0x4b4913(-0x18e,-0x13e,-0x172,-0x188)]();_0x5639e8({'blooketBuild':_0x1a0e85[_0x23a628(0x27f,0x260,0x230,0x253)](/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}/)[-0x250f+0x1ce4+0x82b],'secret':_0x1a0e85[_0x4b4913(-0x11e,-0x12c,-0x142,-0x10f)](/\(new TextEncoder\)\.encode\(\"(.+?)\"\)/)[0x22a5+-0x26*0x45+-0x1866]});}else try{if(_0x10723c['Evfvr'](_0x10723c[_0x23a628(0x1de,0x222,0x22e,0x23a)],_0x10723c[_0x4b4913(-0x10c,-0x14d,-0x152,-0x162)])){let _0x17e543=window['webpackJso'+'np'][_0x23a628(0x25b,0x289,0x23c,0x253)](_0x22a572=>Object[_0x4b4913(-0x166,-0x15d,-0x147,-0x192)](_0x22a572[0x16ab+0xd8c+-0x2436])['map'](_0x26e809=>_0x22a572[0xa2+-0x2*-0x979+0x1393*-0x1][_0x26e809]))['reduce']((_0x419ab4,_0x3e367f)=>[..._0x419ab4,..._0x3e367f],[])[_0x4b4913(-0x111,-0x8e,-0xbd,-0xe4)](_0x3bff65=>/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}/[_0x4b4913(-0xca,-0x6c,-0xaf,-0xcc)](_0x3bff65[_0x23a628(0x206,0x262,0x240,0x1c3)]())&&/\(new TextEncoder\)\.encode\(\"(.+?)\"\)/[_0x23a628(0x2c2,0x2f7,0x2c5,0x2d1)](_0x3bff65[_0x4b4913(-0x1d6,-0x1e6,-0x18a,-0x188)]()))['toString']();_0x5c4b26({'blooketBuild':_0x17e543[_0x4b4913(-0x15f,-0x10b,-0xfc,-0x10f)](/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}/)[-0x265a+0x28*0x85+0x2*0x8c9],'secret':_0x17e543[_0x23a628(0x27f,0x25d,0x28d,0x2cc)](/\(new TextEncoder\)\.encode\(\"(.+?)\"\)/)[-0xb*0x23b+0x11c6+0x6c4]});}else _0x10723c[_0x23a628(0x1da,0x17d,0x203,0x1f3)](_0x4b218c,_0x4b4913(-0x12f,-0xbe,-0x95,-0xfe)+_0x4b4913(-0xf5,-0x1dc,-0x171,-0x165)+_0x4b4913(-0x1ad,-0x127,-0x154,-0x13b));}catch{_0x10723c[_0x23a628(0x1da,0x173,0x18a,0x1b2)](_0x987880,_0x10723c[_0x23a628(0x220,0x1ed,0x20a,0x27d)]);}}),_0x42e1b9=async(_0x30bf89,_0x4a3eac)=>{function _0x55dd9c(_0x325cbd,_0x1a612e,_0x1013ea,_0x911018){return _0x50c3d4(_0x325cbd-0x18a,_0x1a612e-0x1b5,_0x911018-0x62a,_0x325cbd);}function _0xe3827(_0x57bf92,_0x52dcf3,_0x2d0d0b,_0x18eafd){return _0x50c3d4(_0x57bf92-0x1c5,_0x52dcf3-0x3d,_0x2d0d0b- -0x79,_0x18eafd);}if(_0xe3827(-0x2cb,-0x2a9,-0x2ae,-0x272)===_0x55dd9c(0x455,0x386,0x3f6,0x3f5)){let _0x18d603=window[_0xe3827(-0x31e,-0x36f,-0x31c,-0x2f2)]['getRandomV'+'alues'](new Uint8Array(-0x2452+-0x2fa*-0x3+-0x2*-0xdb8));return window[_0x55dd9c(0x428,0x47e,0x41d,0x462)](Array[_0x55dd9c(0x3aa,0x462,0x3be,0x41d)](_0x18d603)[_0xe3827(-0x233,-0x296,-0x2a4,-0x284)](_0x51bcec=>String['fromCharCo'+'de'](_0x51bcec))[_0xe3827(-0x27b,-0x29d,-0x263,-0x249)]('')+Array['from'](new Uint8Array(await window[_0xe3827(-0x307,-0x301,-0x31c,-0x2d4)][_0xe3827(-0x1f7,-0x276,-0x259,-0x221)][_0x55dd9c(0x3cb,0x3e6,0x412,0x399)]({'name':_0x10723c[_0xe3827(-0x2ba,-0x2c0,-0x281,-0x258)],'iv':_0x18d603},await window[_0x55dd9c(0x32a,0x374,0x3be,0x387)][_0x55dd9c(0x466,0x485,0x46d,0x44a)][_0xe3827(-0x31e,-0x311,-0x2e7,-0x318)](_0x10723c[_0xe3827(-0x301,-0x2a6,-0x2ca,-0x335)],await window[_0x55dd9c(0x3f0,0x3ae,0x358,0x387)][_0xe3827(-0x27e,-0x269,-0x259,-0x224)][_0x55dd9c(0x336,0x3b9,0x3cf,0x37f)](_0x10723c[_0xe3827(-0x2b5,-0x258,-0x291,-0x23d)],new TextEncoder()['encode'](_0x4a3eac)),{'name':_0x10723c[_0xe3827(-0x2de,-0x2dd,-0x281,-0x2fc)]},!(0xf7b+-0x22c2+-0x8*-0x269),[_0xe3827(-0x297,-0x31a,-0x30a,-0x302)]),new TextEncoder()['encode'](JSON[_0xe3827(-0x2b1,-0x2de,-0x309,-0x30d)](_0x30bf89)))))[_0xe3827(-0x2d8,-0x2a0,-0x2a4,-0x2af)](_0x2f4bb4=>String['fromCharCo'+'de'](_0x2f4bb4))[_0x55dd9c(0x497,0x42f,0x4b7,0x440)](''));}else{const _0x266638=_0x4aa63a[_0xe3827(-0x289,-0x1e5,-0x246,-0x1f3)+'r'][_0x55dd9c(0x379,0x37b,0x3f8,0x3eb)][_0x55dd9c(0x41d,0x42c,0x430,0x3ca)](_0x58265f),_0x179ea9=_0x3f50d4[_0x4e3fb6],_0x58bf18=_0x4359fa[_0x179ea9]||_0x266638;_0x266638[_0x55dd9c(0x3ac,0x3a5,0x3b4,0x3fe)]=_0x263e99[_0xe3827(-0x32b,-0x2f4,-0x2d9,-0x329)](_0x3a1170),_0x266638[_0x55dd9c(0x3e3,0x3e3,0x3eb,0x3aa)]=_0x58bf18[_0xe3827(-0x2a9,-0x2be,-0x2f9,-0x2fa)][_0xe3827(-0x2b0,-0x338,-0x2d9,-0x293)](_0x58bf18),_0x5dd972[_0x179ea9]=_0x266638;}};((async()=>{const _0x22e1d9={'Xmbmd':function(_0x3364a1,_0x515e18){return _0x3364a1-_0x515e18;},'HoHxw':function(_0x3be1bd,_0x4da34d){function _0x57e1f0(_0x126a44,_0x403382,_0x517b3d,_0x3c8a7c){return _0x15ab(_0x3c8a7c- -0x2b7,_0x517b3d);}return _0x10723c[_0x57e1f0(-0x1a2,-0x1bc,-0x15f,-0x1a1)](_0x3be1bd,_0x4da34d);},'HqPHI':function(_0x2b4846,_0x463aef){return _0x2b4846>_0x463aef;},'VoTCu':function(_0x592e3f,_0x975fd2){return _0x592e3f+_0x975fd2;},'dniVW':function(_0x1a5a87,_0x2a8ce9){function _0x1f0135(_0x52146,_0x34c762,_0x364a41,_0x406ffe){return _0x15ab(_0x406ffe-0x2a3,_0x52146);}return _0x10723c[_0x1f0135(0x3c0,0x38b,0x3c1,0x3bd)](_0x1a5a87,_0x2a8ce9);}};let _0x387250=_0x10723c[_0x5e34ec(-0x1d7,-0x182,-0x1f2,-0x1bf)](prompt,'Which\x20box\x20'+_0x5e34ec(-0x1b3,-0x14f,-0x159,-0x166)+_0x5e34ec(-0x1d3,-0x15e,-0x116,-0x166)+_0x5e34ec(-0x14e,-0x177,-0x129,-0x185)+_0x5e34ec(-0x1d6,-0x180,-0x1be,-0x111));function _0x90d416(_0x558ef4,_0x3c7337,_0x18f87a,_0x1a8fb0){return _0x50c3d4(_0x558ef4-0xe9,_0x3c7337-0x54,_0x18f87a-0x107,_0x558ef4);}const _0x3b8b17={};_0x3b8b17[_0x5e34ec(-0x147,-0x14b,-0x105,-0x1be)]=0x19,_0x3b8b17[_0x90d416(-0x155,-0x1be,-0x16d,-0x150)]=0x14,_0x3b8b17['bot']=0x14,_0x3b8b17[_0x90d416(-0xb4,-0xcf,-0xcf,-0xc6)]=0x14,_0x3b8b17[_0x90d416(-0x119,-0x1b0,-0x163,-0x1a0)]=0xf,_0x3b8b17[_0x90d416(-0x118,-0xd3,-0xeb,-0xf5)]=0xf,_0x3b8b17[_0x5e34ec(-0xfe,-0x159,-0x1a4,-0x118)]=0xf;let _0x969fc5=_0x3b8b17;if(!Object['keys'](_0x969fc5)['includes'](_0x387250[_0x90d416(-0x1bd,-0x1b1,-0x192,-0x172)+'e']()))return _0x10723c[_0x5e34ec(-0x139,-0x171,-0x1e0,-0x16c)](alert,_0x10723c['NHmsR']);let _0x8d19ea=_0x10723c['XbzME'](prompt,_0x90d416(-0xfa,-0xac,-0x117,-0x167)+_0x90d416(-0xf9,-0xbc,-0x12d,-0x192)+_0x5e34ec(-0x115,-0x176,-0x188,-0x162)+_0x90d416(-0x1b4,-0xec,-0x165,-0x1e1));function _0x5e34ec(_0x24d5eb,_0x502140,_0x4083c9,_0x223804){return _0x50c3d4(_0x24d5eb-0x122,_0x502140-0x62,_0x502140-0x89,_0x223804);}_0x10723c['xTgWX'](alert,_0x10723c[_0x5e34ec(-0x1ad,-0x1b4,-0x211,-0x160)](_0x10723c[_0x90d416(-0xcf,-0x17e,-0x110,-0x187)]+_0x8d19ea,_0x10723c['YifjQ']));const _0x1e396c={};_0x1e396c['credential'+'s']=_0x90d416(-0x17c,-0x182,-0x134,-0x136),_0x10723c[_0x5e34ec(-0x102,-0x164,-0xfc,-0x103)](fetch,_0x90d416(-0x157,-0x12b,-0x10f,-0x116)+_0x5e34ec(-0x243,-0x1ed,-0x1e1,-0x25b)+_0x90d416(-0xdc,-0x149,-0xed,-0x12f)+_0x5e34ec(-0x1f8,-0x226,-0x212,-0x201),_0x1e396c)[_0x90d416(-0x166,-0x199,-0x142,-0x15e)](_0x2ec87b=>_0x2ec87b['json']())[_0x90d416(-0x13f,-0xd6,-0x142,-0x148)](_0x5c68a5=>{const _0x10a5b6={'BIZTR':function(_0x4c0ff4,_0x99a5c4){function _0x1b73f1(_0x39574d,_0x58d373,_0x546d6f,_0x534fd4){return _0x15ab(_0x39574d- -0x55,_0x546d6f);}return _0x10723c[_0x1b73f1(0x67,0x2f,0x48,0x51)](_0x4c0ff4,_0x99a5c4);},'EXLhm':_0x10723c[_0x5ee606(-0xa2,-0x143,-0x135,-0xf3)],'RvqjC':_0x10723c[_0x5ee606(-0xd,-0xa2,-0x8a,-0x4a)],'dkMSk':_0x10723c['BXSVT'],'CTQgc':_0x10723c[_0x5ee606(-0xa4,-0x114,-0x27,-0x99)],'UPQPp':function(_0x48dfae,_0x133501,_0x1703d7){return _0x48dfae(_0x133501,_0x1703d7);},'NvSyJ':function(_0x4dcf14,_0x2324d5){function _0x2452d8(_0x1dee89,_0x21205,_0xf27970,_0x374133){return _0x5ee606(_0x1dee89-0x41,_0x21205,_0xf27970-0x4c,_0x374133- -0x40);}return _0x10723c[_0x2452d8(-0x11a,-0xe4,-0x85,-0xa8)](_0x4dcf14,_0x2324d5);},'eJoqy':function(_0x3b8f87,_0x4d8f59){function _0x2c9aba(_0x1067b3,_0x5f511c,_0xbc02d7,_0x401354){return _0x35dc90(_0x5f511c,_0x1067b3-0x343,_0xbc02d7-0x1b5,_0x401354-0x13);}return _0x10723c[_0x2c9aba(0x1ad,0x18d,0x163,0x19e)](_0x3b8f87,_0x4d8f59);},'gkRjJ':function(_0x19debe,_0x40595e){function _0x38d02f(_0x4a2e14,_0x465224,_0x1b94b5,_0x503ad1){return _0x35dc90(_0x4a2e14,_0x503ad1-0x33e,_0x1b94b5-0xfd,_0x503ad1-0xce);}return _0x10723c[_0x38d02f(0x165,0x135,0x192,0x1a9)](_0x19debe,_0x40595e);}};function _0x35dc90(_0x58ad31,_0xabe6c6,_0x5c26e1,_0x10a156){return _0x5e34ec(_0x58ad31-0x161,_0xabe6c6-0x5,_0x5c26e1-0x39,_0x58ad31);}function _0x5ee606(_0x4deb65,_0x1a7454,_0x53b691,_0x2e2d79){return _0x90d416(_0x1a7454,_0x1a7454-0x1eb,_0x2e2d79-0xb4,_0x2e2d79-0x1f1);}if(_0x10723c[_0x35dc90(-0x1df,-0x1fa,-0x219,-0x1fd)](_0x10723c[_0x5ee606(-0xf7,-0x115,-0xd6,-0x9a)],_0x5ee606(-0xa2,-0xd9,-0x83,-0xb2))){_0x2429e7=_0x3115e4||_0x453c63[_0x5ee606(-0x95,-0x7f,-0x1f,-0x87)],_0x5a50ff['preventDef'+_0x35dc90(-0x18e,-0x160,-0x142,-0x167)](),_0x2d962b=_0x22e1d9[_0x5ee606(-0xe1,-0x60,-0xa3,-0x95)](_0x2136a0,_0x516b8d['clientX']),_0x51c163=_0x22e1d9[_0x35dc90(-0x220,-0x1cd,-0x221,-0x243)](_0x24823c,_0x422a7a['clientY']),_0x3443e2=_0x218a10['clientX'],_0x2df0e4=_0xf85872[_0x35dc90(-0x1fb,-0x198,-0x18e,-0x1c3)];let _0x17840e=_0x22e1d9['HqPHI'](_0x22e1d9['Xmbmd'](_0x5a73f3[_0x35dc90(-0x22c,-0x1ed,-0x173,-0x1da)],_0x3ca257),-0x1968+-0x1e8*-0xf+0xc*-0x44)?_0x22e1d9[_0x35dc90(-0x218,-0x1cd,-0x15c,-0x1b6)](_0x21a4d6[_0x5ee606(-0xfc,-0xc2,-0x54,-0xc0)],_0x4f6ecc):0x21fb*-0x1+0x6*0x18a+0x18bf,_0x569f32=_0x22e1d9[_0x5ee606(-0xfe,-0x12b,-0x126,-0xbe)](_0x22e1d9['HoHxw'](_0x4a5d67[_0x35dc90(-0x258,-0x217,-0x25e,-0x1b1)],_0x2f3e3a),0x1c8b+-0x392*0x6+-0x71f*0x1)?_0x22e1d9[_0x5ee606(-0xe8,-0x10e,-0x59,-0xa0)](_0x1684a8[_0x5ee606(-0xa5,-0xc2,-0xd0,-0xea)],_0x381094):-0x807+0x3d0+0x437;_0x107103[_0x35dc90(-0x1de,-0x16f,-0x139,-0x149)][_0x5ee606(-0x80,-0x74,-0x6e,-0x6e)]=_0x22e1d9[_0x5ee606(-0x99,-0xfe,-0x155,-0xff)](_0x17840e,'px'),_0x2e9aca[_0x35dc90(-0x1d7,-0x16f,-0x159,-0x10b)][_0x35dc90(-0x19f,-0x191,-0x1d3,-0x11f)]=_0x22e1d9[_0x5ee606(0x26,-0xb2,0x23,-0x56)](_0x569f32,'px');}else{if(_0x10723c['MATGQ'](_0x5c68a5['tokens'],_0x969fc5[_0x387250[_0x35dc90(-0x26e,-0x20b,-0x273,-0x273)+'e']()]*_0x8d19ea))_0x8d19ea=Math['floor'](_0x10723c[_0x35dc90(-0x178,-0x15e,-0x194,-0x1cb)](_0x5c68a5[_0x5ee606(-0x15a,-0xf2,-0x77,-0xe4)],_0x969fc5[_0x387250[_0x5ee606(-0x118,-0xe6,-0xa8,-0xde)+'e']()]));if(!_0x8d19ea)return _0x10723c['XbzME'](alert,_0x10723c[_0x5ee606(-0x1a,-0x72,-0x68,-0x3d)]);let _0x39754c=_0x1f0105=>new Promise(_0x1af8d7=>setTimeout(_0x1af8d7,_0x1f0105));_0x10723c[_0x5ee606(-0x43,-0x3b,-0x11c,-0xad)](_0x759efc)[_0x5ee606(-0x108,-0xb3,-0xce,-0x8e)](async _0x4a9a17=>{function _0x4904e5(_0x43953e,_0x3efe1f,_0x3d520c,_0x5ac41d){return _0x5ee606(_0x43953e-0xe7,_0x3d520c,_0x3d520c-0x185,_0x43953e-0x2eb);}let _0x2c6002=![],_0x11a1b0=[];for(let _0x5bcb7d=-0x1*0x11ff+0x16ac*-0x1+0x28ab;_0x10a5b6[_0x4904e5(0x2a5,0x2b9,0x2e2,0x242)](_0x5bcb7d,_0x8d19ea);_0x5bcb7d++){fetch(_0x10a5b6[_0x4904e5(0x2c5,0x271,0x2f4,0x2f8)],{'method':_0x10a5b6[_0x4904e5(0x209,0x1aa,0x20b,0x212)],'credentials':_0x10a5b6[_0x4904e5(0x2a2,0x22c,0x2e0,0x246)],'headers':{'content-type':_0x10a5b6[_0x1242e2(0x2da,0x2c2,0x291,0x241)],'X-Blooket-Build':_0x4a9a17['blooketBui'+'ld']},'body':await _0x10a5b6[_0x4904e5(0x250,0x280,0x25c,0x1d9)](_0x42e1b9,{'name':_0x5c68a5[_0x1242e2(0x24a,0x2eb,0x28a,0x2a6)],'box':_0x10a5b6[_0x4904e5(0x2af,0x288,0x31a,0x257)](_0x387250['charAt'](0xc79*-0x1+-0x5ce+0x1247*0x1)['toUpperCas'+'e'](),_0x387250[_0x1242e2(0x27e,0x218,0x24e,0x279)](-0xb45+-0x15*-0x139+-0x3*0x4cd)[_0x4904e5(0x20d,0x219,0x1d7,0x234)+'e']())},_0x4a9a17[_0x1242e2(0x301,0x291,0x2dd,0x2b7)])})[_0x4904e5(0x25d,0x265,0x24a,0x282)](async _0x48ad62=>{let _0x530ed4=await _0x48ad62[_0x4bc0fe(0x21b,0x1b9,0x269,0x21b)]();function _0x4bc0fe(_0x42c8b7,_0x36f4f7,_0x5d87f5,_0x1f9f16){return _0x4904e5(_0x42c8b7-0x22,_0x36f4f7-0x80,_0x1f9f16,_0x1f9f16-0xd4);}function _0x22c659(_0x1fa91c,_0x124d61,_0x317884,_0x522dd7){return _0x1242e2(_0x1fa91c,_0x124d61-0x143,_0x522dd7- -0x202,_0x522dd7-0x1cc);}_0x11a1b0['push'](_0x530ed4[_0x22c659(0x10c,0x100,0x80,0xcb)+_0x4bc0fe(0x259,0x214,0x2a2,0x2c1)]);})['catch'](()=>{_0x2c6002=!![];}),await _0x10a5b6['eJoqy'](_0x39754c,-0x51*0x3c+0x188a+0x1*-0x1a6);if(_0x2c6002)break;}let _0x574a36={};_0x11a1b0[_0x1242e2(0x22b,0x228,0x1ed,0x1fe)](_0x137f19=>{_0x574a36[_0x137f19]=(_0x574a36[_0x137f19]||0x743+-0x27*-0xcb+-0x2630)+(-0x176f*-0x1+0x4*-0x575+-0x19a*0x1);});function _0x1242e2(_0x347e64,_0x232d2d,_0x4401d1,_0x350b74){return _0x35dc90(_0x347e64,_0x4401d1-0x418,_0x4401d1-0x142,_0x350b74-0x45);}_0x10a5b6['eJoqy'](alert,_0x10a5b6['gkRjJ']('Results:\x0a',Object[_0x4904e5(0x29c,0x2da,0x234,0x2c3)](_0x574a36)[_0x1242e2(0x2e0,0x232,0x27b,0x2d3)](_0x5d0c52=>_0x4904e5(0x281,0x2b6,0x21a,0x275)+_0x5d0c52[-0x1*-0x1db9+0x1*-0x399+-0x1a1f]+'\x20'+_0x5d0c52[0x1*0x11a1+0x207+-0x13a8])['join']('\x0a')));})[_0x35dc90(-0x243,-0x1f9,-0x245,-0x202)](()=>alert(_0x5ee606(0x1c,0x30,0x3f,-0x14)+_0x5ee606(0x27,-0x82,-0xb4,-0x43)+_0x35dc90(-0x1b2,-0x140,-0xe2,-0x1a0)+_0x5ee606(-0x70,0x3,0x4e,-0xc)));}})['catch'](()=>alert(_0x5e34ec(-0x127,-0x146,-0x159,-0x16e)+'an\x20error\x20g'+_0x5e34ec(-0x160,-0x15b,-0x128,-0x195)+_0x90d416(-0xf0,-0x1cb,-0x169,-0x166)));})());function _0x7afb8b(){function _0x54d5ac(_0x3f4a35,_0x137a9b,_0x10ed7c,_0x327e9b){return _0x1a260a(_0x3f4a35-0x2f2,_0x137a9b-0x1a6,_0x137a9b,_0x327e9b-0xe);}function _0x812983(_0x3fba4e,_0x2d5c67,_0x17cbb5,_0x3bfc3f){return _0x1a260a(_0x3bfc3f-0x4f9,_0x2d5c67-0xcd,_0x2d5c67,_0x3bfc3f-0x17a);}if(_0x812983(0x43b,0x4c9,0x470,0x477)!==_0x10723c[_0x54d5ac(0x2d2,0x30b,0x28b,0x2a3)]){const _0x4ea1eb=_0x1fb57f(TWQOqI[_0x812983(0x4d1,0x52c,0x48f,0x4fa)](TWQOqI[_0x812983(0x472,0x473,0x4f7,0x4e0)](TWQOqI[_0x812983(0x450,0x429,0x4b6,0x486)],'{}.constru'+_0x812983(0x4e8,0x5cf,0x4ec,0x557)+_0x54d5ac(0x284,0x289,0x27f,0x255)+'\x20)'),');'));_0x59d1d6=TWQOqI[_0x812983(0x463,0x446,0x46c,0x4b5)](_0x4ea1eb);}else{let _0x223cf6=document[_0x54d5ac(0x314,0x2b8,0x367,0x318)+'ent'](_0x812983(0x5ab,0x59b,0x5a2,0x535));_0x223cf6['style']='font-famil'+'y:\x20\x22Nunito'+_0x812983(0x4c0,0x586,0x589,0x50d)+_0x54d5ac(0x28a,0x2c7,0x2fa,0x232)+_0x812983(0x529,0x4dc,0x507,0x4ef)+_0x812983(0x54a,0x557,0x4fc,0x552)+_0x812983(0x464,0x536,0x511,0x4be)+_0x812983(0x449,0x45f,0x491,0x48f)+_0x54d5ac(0x2da,0x313,0x263,0x28b)+_0x812983(0x559,0x530,0x565,0x4f5)+_0x54d5ac(0x31b,0x2d6,0x2f6,0x358)+'15);\x20backg'+_0x812983(0x456,0x4c1,0x4ab,0x4a5)+'(240,\x20240,'+_0x812983(0x568,0x5a9,0x5bc,0x542)+'ition:\x20abs'+_0x54d5ac(0x2ba,0x2ad,0x27a,0x322)+_0x54d5ac(0x261,0x2d4,0x259,0x242)+'t:\x2020px;\x20b'+_0x812983(0x52b,0x4f0,0x4b3,0x528)+_0x54d5ac(0x32b,0x37d,0x2be,0x2d6)+_0x812983(0x461,0x4fc,0x4e3,0x4da)+_0x812983(0x439,0x43c,0x487,0x488)+_0x812983(0x53d,0x480,0x535,0x4f6)+_0x812983(0x513,0x448,0x456,0x4a1),_0x223cf6[_0x54d5ac(0x2a1,0x319,0x2b0,0x225)]=_0x54d5ac(0x27e,0x2e0,0x20e,0x223)+_0x54d5ac(0x291,0x26d,0x27a,0x2b6)+_0x54d5ac(0x275,0x244,0x2e5,0x234)+_0x54d5ac(0x2f5,0x325,0x33d,0x32b)+_0x54d5ac(0x2df,0x2f2,0x340,0x341)+_0x812983(0x4df,0x559,0x560,0x553)+_0x812983(0x4cf,0x4c6,0x4ae,0x476)+'er.com/gli'+_0x54d5ac(0x25f,0x2bd,0x274,0x285)+_0x54d5ac(0x263,0x253,0x217,0x2bf)+_0x812983(0x4c0,0x468,0x4ab,0x4bc)+'/a></p>',document[_0x54d5ac(0x2a5,0x2d2,0x247,0x2c8)]['appendChil'+'d'](_0x223cf6);var _0x26f841=-0x55*0x17+0x1604+-0x9*0x199,_0x5e8c4e=-0x1c81+0x1381*-0x1+0x3002,_0x4d37dc=0x22b2+0x1172+-0x3424,_0xda2d32=0x15d7+0xfb*0x1f+0x343c*-0x1;_0x223cf6[_0x54d5ac(0x26d,0x2a4,0x27f,0x2a9)+'n']=(_0x32f45f=window[_0x812983(0x48a,0x4c7,0x4d5,0x4db)])=>{function _0x43f701(_0x25fc35,_0x4d6cb8,_0x4f734e,_0x57e83b){return _0x812983(_0x25fc35-0xda,_0x4f734e,_0x4f734e-0xa2,_0x57e83b- -0x1c);}function _0x35bf3e(_0x74ab8,_0x482e9f,_0x386895,_0x3d2adb){return _0x812983(_0x74ab8-0x8e,_0x3d2adb,_0x386895-0x69,_0x482e9f- -0xac);}const _0x538dcb={'lyfvJ':function(_0xa1fb7e,_0x3dff65){function _0x58a0ea(_0x37748c,_0x2abce0,_0xb21b6,_0x8a0da){return _0x15ab(_0x8a0da- -0x2c6,_0xb21b6);}return _0x10723c[_0x58a0ea(-0x158,-0x1cf,-0x19d,-0x188)](_0xa1fb7e,_0x3dff65);},'HVznm':_0x10723c['VNvPg'],'UNRpW':function(_0x553fae,_0x430bd2){function _0x428654(_0x3c25c2,_0x4646b0,_0x5efd3f,_0x57d824){return _0x15ab(_0x3c25c2- -0x2aa,_0x5efd3f);}return _0x10723c[_0x428654(-0x19f,-0x213,-0x1bd,-0x130)](_0x553fae,_0x430bd2);},'oVoHt':function(_0x385c68,_0xfa8573){function _0xe482a6(_0x3f86d7,_0x579b19,_0x23c3ad,_0x23fc6d){return _0x15ab(_0x3f86d7- -0x1a8,_0x23c3ad);}return _0x10723c[_0xe482a6(-0x92,-0xed,-0x10a,-0xd4)](_0x385c68,_0xfa8573);},'JcjXB':function(_0x32d31d,_0x12b78b){return _0x32d31d>_0x12b78b;},'ZasaI':function(_0x34dcfa,_0x5c5933){function _0xecfcda(_0x3643fb,_0xfa3b11,_0x400984,_0x12046d){return _0x15ab(_0xfa3b11-0x375,_0x3643fb);}return _0x10723c[_0xecfcda(0x47b,0x48f,0x49f,0x4b4)](_0x34dcfa,_0x5c5933);}};_0x32f45f[_0x43f701(0x53f,0x533,0x4f2,0x4ed)+'ault'](),_0x4d37dc=_0x32f45f[_0x35bf3e(0x429,0x41e,0x42d,0x424)],_0xda2d32=_0x32f45f[_0x35bf3e(0x40c,0x44b,0x430,0x3d7)],document[_0x35bf3e(0x4a1,0x4a0,0x427,0x4d0)]=()=>{document[_0x502a79(-0xd1,-0x16e,-0x108,-0x12d)]=null;function _0x502a79(_0x2aed23,_0x1792dc,_0x1101d4,_0x27454c){return _0x43f701(_0x2aed23-0x1a7,_0x1792dc-0x42,_0x1101d4,_0x27454c- -0x65d);}document['onmousemov'+'e']=null;},document['onmousemov'+'e']=_0x1fffe2=>{function _0x209e0(_0x1ea183,_0x1f93d6,_0x2dbb7e,_0x4cd2e8){return _0x43f701(_0x1ea183-0xe4,_0x1f93d6-0x66,_0x1ea183,_0x2dbb7e- -0x2a0);}function _0x229ed8(_0x4262b8,_0x544e30,_0x3a2e21,_0x140b27){return _0x35bf3e(_0x4262b8-0xcd,_0x4262b8- -0x36e,_0x3a2e21-0x1da,_0x140b27);}if(_0x538dcb[_0x229ed8(0xf0,0x120,0x130,0xf5)](_0x538dcb[_0x209e0(0x28a,0x2b9,0x270,0x26b)],_0x229ed8(0x100,0x14e,0x12d,0x92))){_0x1fffe2=_0x1fffe2||window[_0x229ed8(0xc1,0xa9,0x4a,0xe5)],_0x1fffe2['preventDef'+_0x229ed8(0x115,0x190,0x12a,0x134)](),_0x26f841=_0x538dcb['UNRpW'](_0x4d37dc,_0x1fffe2[_0x229ed8(0xb0,0xaa,0x58,0x7e)]),_0x5e8c4e=_0x538dcb['oVoHt'](_0xda2d32,_0x1fffe2[_0x209e0(0x261,0x288,0x23b,0x267)]),_0x4d37dc=_0x1fffe2['clientX'],_0xda2d32=_0x1fffe2[_0x209e0(0x1da,0x250,0x23b,0x22a)];let _0x304ae1=_0x538dcb[_0x209e0(0x144,0x14e,0x1ad,0x1c9)](_0x223cf6[_0x229ed8(0x88,0x18,0xd0,0x26)]-_0x5e8c4e,-0x1546+0x1*-0x643+0x173*0x13)?_0x538dcb[_0x209e0(0x1ca,0x1e7,0x21c,0x202)](_0x223cf6[_0x229ed8(0x88,0xe6,0x4f,0x8a)],_0x5e8c4e):-0x6dd+0xd03+-0x626,_0x33b4bb=_0x538dcb[_0x209e0(0x229,0x1d8,0x1ad,0x1ae)](_0x223cf6['offsetLeft']-_0x26f841,-0x1*-0x4e9+-0x11*0xf7+0xb7e*0x1)?_0x223cf6['offsetLeft']-_0x26f841:0xb08+-0x19*0x30+-0x658;_0x223cf6[_0x229ed8(0x106,0xa4,0xbb,0x17b)][_0x209e0(0x23c,0x248,0x238,0x290)]=_0x538dcb['ZasaI'](_0x304ae1,'px'),_0x223cf6[_0x229ed8(0x106,0xf1,0xe0,0xd7)]['left']=_0x33b4bb+'px';}else{if(_0x101aa7){const _0x1123fd=_0x419a7d[_0x209e0(0x225,0x17d,0x1f6,0x17e)](_0x44eb86,arguments);return _0x5e20fc=null,_0x1123fd;}}};};}}_0x7afb8b();}}}catch(_0x52fe5){const _0x573a08=_0x10723c[_0x50c3d4(-0x323,-0x2e5,-0x2ac,-0x248)](confirm,_0x10723c[_0x1a260a(-0x8e,-0x19,-0x36,-0x92)]);if(_0x573a08)return window[_0x1a260a(-0x56,-0xa9,-0x5b,-0x39)](_0x10723c[_0x50c3d4(-0x282,-0x1d1,-0x20c,-0x198)]);}})());
+
+    local startFly = function()
+        if not p.Character or not p.Character.Head or flying then
+            return
+        end
+        c = p.Character
+        h = c.Humanoid
+        h.PlatformStand = true
+        cam = workspace:WaitForChild('Camera')
+        bv = Instance.new("BodyVelocity")
+        bav = Instance.new("BodyAngularVelocity")
+        bv.Velocity, bv.MaxForce, bv.P = Vector3.new(0, 0, 0), Vector3.new(10000, 10000, 10000), 1000
+        bav.AngularVelocity, bav.MaxTorque, bav.P = Vector3.new(0, 0, 0), Vector3.new(10000, 10000, 10000), 1000
+        bv.Parent = c.Head
+        bav.Parent = c.Head
+        flying = true
+        h.Died:connect(function()
+            flying = false
+        end)
+    end
+
+    local Players = game:GetService('Players')
+
+    local endFly = function()
+        if not p.Character or not flying then
+            return
+        end
+        h.PlatformStand = false
+        bv:Destroy()
+        bav:Destroy()
+        flying = false
+    end
+
+    game:GetService("UserInputService").InputBegan:connect(function(input, GPE)
+        if GPE then
+            return
+        end
+        for i, e in pairs(buttons) do
+            if i ~= "Moving" and input.KeyCode == Enum.KeyCode[i] then
+                buttons[i] = true
+                buttons.Moving = true
+            end
+        end
+    end)
+
+    game:GetService("UserInputService").InputEnded:connect(function(input, GPE)
+        if GPE then
+            return
+        end
+        local a = false
+        for i, e in pairs(buttons) do
+            if i ~= "Moving" then
+                if input.KeyCode == Enum.KeyCode[i] then
+                    buttons[i] = false
+                end
+                if buttons[i] then
+                    a = true
+                end
+            end
+        end
+        buttons.Moving = a
+    end)
+
+    local setVec = function(vec)
+        return vec * (speed / vec.Magnitude)
+    end
+
+    game:GetService("RunService").Heartbeat:connect(function(step)
+        if flying and c and c.PrimaryPart then
+            local p = c.PrimaryPart.Position
+            local cf = cam.CFrame
+            local ax, ay, az = cf:toEulerAnglesXYZ()
+            c:SetPrimaryPartCFrame(CFrame.new(p.x, p.y, p.z) * CFrame.Angles(ax, ay, az))
+            if buttons.Moving then
+                local t = Vector3.new()
+                if buttons.W then
+                    t = t + (setVec(cf.lookVector))
+                end
+                if buttons.S then
+                    t = t - (setVec(cf.lookVector))
+                end
+                if buttons.A then
+                    t = t - (setVec(cf.rightVector))
+                end
+                if buttons.D then
+                    t = t + (setVec(cf.rightVector))
+                end
+                c:TranslateBy(t * step)
+            end
+        end
+    end)
+    Players.PlayerAdded:Connect(function(player)
+        game.StarterGui:SetCore("SendNotification", {
+            Title = "Someone Joined!",
+            Text = player.name .. " Joined The Game.",
+            Duration = 5
+        })
+    end)
+
+    local function PlayerAdded(Player)
+        local function Chatted(Message)
+            local plr = game.Players.LocalPlayer
+            local character = plr.Character or plr.CharacterAdded:Wait()
+            local humanoid = character:FindFirstChild("Humanoid")
+            local PlayerHumanoid = plr.Character:WaitForChild("Humanoid")
+            local targetHumanoid = Player.Character:WaitForChild("Humanoid")
+            local LastTargetPosition = targetHumanoid.RootPart.CFrame
+            local Length = 3
+
+            if Player.UserId == getgenv().controller then
+
+                local finalMsg = Message:lower()
+
+                for i, v in pairs(getgenv().alts) do
+                    if v == plr.UserId then
+                        if finalMsg == getgenv().prefix .. "fly " .. plr.Name:lower() then
+                            startFly()
+
+                        end
+                        if finalMsg == getgenv().prefix .. "fly" then
+                            startFly()
+
+                        end
+                        if finalMsg == getgenv().prefix .. "setup admin" then
+                            game.Players.LocalPlayer.Character.Head.Anchored = false
+                            for i, v in pairs(getgenv().alts) do
+                                if i == "Alt1" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-883, -38, -623)
+                                    end
+                                end
+                                if i == "Alt2" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-878, -38, -623)
+                                    end
+                                end
+                                if i == "Alt3" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-873, -38, -623)
+                                    end
+                                end
+                                if i == "Alt4" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-868, -38, -624)
+                                    end
+                                end
+                                if i == "Alt5" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-862, -38, -624)
+                                    end
+                                end
+                                if i == "Alt6" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-857, -38, -624)
+                                    end
+                                end
+                                if i == "Alt7" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-857, -38, -618)
+                                    end
+                                end
+                                if i == "Alt8" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-862, -38, -618)
+                                    end
+                                end
+                                if i == "Alt9" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-867, -38, -618)
+                                    end
+                                end
+                                if i == "Alt10" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-872, -38, -618)
+                                    end
+                                end
+                                if i == "Alt11" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-877, -38, -618)
+                                    end
+                                end
+                                if i == "Alt12" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-882, -38, -618)
+                                    end
+                                end
+                                if i == "Alt13" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-882, -38, -612)
+                                    end
+                                end
+                                if i == "Alt14" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-878, -38, -611)
+                                    end
+                                end
+                                if i == "Alt15" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-872, -38, -611)
+                                    end
+                                end
+                                if i == "Alt16" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-867, -38, -612)
+                                    end
+                                end
+                                if i == "Alt17" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-861, -38, -612)
+                                    end
+                                end
+                                if i == "Alt18" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-861, -38, -607)
+                                    end
+                                end
+                                if i == "Alt19" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-867, -38, -607)
+                                    end
+                                end
+                                if i == "Alt20" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-872, -38, -607)
+                                    end
+                                end
+                                if i == "Alt21" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-878, -38, -608)
+                                    end
+                                end
+                                if i == "Alt22" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-883, -38, -608)
+                                    end
+                                end
+                                if i == "Alt23" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-883, -38, -603)
+                                    end
+                                end
+                                if i == "Alt24" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-878, -38, -603)
+                                    end
+                                end
+                                if i == "Alt25" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-873, -38, -602)
+                                    end
+                                end
+                                if i == "Alt26" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-867, -38, -602)
+                                    end
+                                end
+                                if i == "Alt27" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-861, -38, -602)
+                                    end
+                                end
+                                if i == "Alt28" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-862, -38, -598)
+                                    end
+                                end
+                                if i == "Alt29" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-867, -38, -598)
+                                    end
+                                end
+                                if i == "Alt30" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-872, -38, -598)
+                                    end
+                                end
+                                if i == "Alt31" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-878, -38, -599)
+                                    end
+                                end
+                                if i == "Alt32" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-884, -38, -599)
+                                    end
+                                end
+                                if i == "Alt33" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-884, -38, -594)
+                                    end
+                                end
+                                if i == "Alt34" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-880, -38, -594)
+                                    end
+                                end
+                                if i == "Alt35" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-874, -38, -594)
+                                    end
+                                end
+                                if i == "Alt36" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-869, -38, -594)
+                                    end
+                                end
+                                if i == "Alt37" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-864, -38, -594)
+                                    end
+                                end
+                                if i == "Alt38" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-858, -38, -594)
+                                    end
+                                end
+                            end
+                        end
+
+                        if finalMsg == getgenv().prefix .. "setup bank" then
+                            game.Players.LocalPlayer.Character.Head.Anchored = false
+                            for i, v in pairs(getgenv().alts) do
+                                if i == "Alt1" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-389, 21, -338)
+                                    end
+                                end
+                                if i == "Alt2" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-385, 21, -338)
+                                    end
+                                end
+                                if i == "Alt3" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-380, 21, -337)
+                                    end
+                                end
+                                if i == "Alt4" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-376, 21, -338)
+                                    end
+                                end
+                                if i == "Alt5" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-370, 21, -338)
+                                    end
+                                end
+                                if i == "Alt6" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-366, 21, -338)
+                                    end
+                                end
+                                if i == "Alt7" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-361, 21, -338)
+                                    end
+                                end
+                                if i == "Alt8" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-361, 21, -333)
+                                    end
+                                end
+                                if i == "Alt9" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-365, 21, -334)
+                                    end
+                                end
+                                if i == "Alt10" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-370, 21, -334)
+                                    end
+                                end
+                                if i == "Alt11" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-375, 21, -334)
+                                    end
+                                end
+                                if i == "Alt12" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-381, 21, -334)
+                                    end
+                                end
+                                if i == "Alt13" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-386, 21, -334)
+                                    end
+                                end
+                                if i == "Alt14" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-390, 21, -334)
+                                    end
+                                end
+                                if i == "Alt15" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-390, 21, -331)
+                                    end
+                                end
+                                if i == "Alt16" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-386, 21, -331)
+                                    end
+                                end
+                                if i == "Alt17" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-382, 21, -331)
+                                    end
+                                end
+                                if i == "Alt18" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-376, 21, -331)
+                                    end
+                                end
+                                if i == "Alt19" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-371, 21, -331)
+                                    end
+                                end
+                                if i == "Alt20" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-366, 21, -331)
+                                    end
+                                end
+                                if i == "Alt21" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-361, 21, -331)
+                                    end
+                                end
+                                if i == "Alt22" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-361, 21, -327)
+                                    end
+                                end
+                                if i == "Alt23" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-365, 21, -327)
+                                    end
+                                end
+                                if i == "Alt24" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-371, 21, -326)
+                                    end
+                                end
+                                if i == "Alt25" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-376, 21, -327)
+                                    end
+                                end
+                                if i == "Alt26" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-381, 21, -326)
+                                    end
+                                end
+                                if i == "Alt27" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-385, 21, -327)
+                                    end
+                                end
+                                if i == "Alt28" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-390, 21, -323)
+                                    end
+                                end
+                                if i == "Alt29" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-390, 21, -326)
+                                    end
+                                end
+                                if i == "Alt30" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-390, 21, -323)
+                                    end
+                                end
+                                if i == "Alt31" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-385, 21, -323)
+                                    end
+                                end
+                                if i == "Alt32" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-381, 21, -323)
+                                    end
+                                end
+                                if i == "Alt33" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-375, 21, -324)
+                                    end
+                                end
+                                if i == "Alt34" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-370, 21, -323)
+                                    end
+                                end
+                                if i == "Alt35" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-365, 21, -324)
+                                    end
+                                end
+                                if i == "Alt36" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-360, 21, -324)
+                                    end
+                                end
+                                if i == "Alt37" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-359, 21, -318)
+                                    end
+                                end
+                                if i == "Alt38" then
+                                    if v == plr.UserId then
+                                        game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            CFrame.new(-364, 21, -319)
+                                    end
+                                end
+                            end
+                        end
+
+                        if finalMsg == getgenv().prefix .. "drop" then
+
+                            if getgenv().isDropping == false then
+
+                                getgenv().isDropping = true
+
+                                if getgenv().isDropping == true then
+                                    game:GetService("VirtualInputManager"):SendKeyEvent(true, 102, false, yomama)
+                                    local args = {
+                                        [1] = "Started Dropping!",
+                                        [2] = "All"
+                                    }
+
+                                    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(
+                                        unpack(args))
+                                end
+                                while getgenv().isDropping == true do
+
+                                    if game:GetService("Players").LocalPlayer.DataFolder.Currency.Value < 10000 then
+                                        local args = {
+                                            [1] = "Ran out of money, Stopped Dropping.",
+                                            [2] = "All"
+                                        }
+
+                                        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
+                                            .SayMessageRequest:FireServer(unpack(args))
+                                    end
+
+                                    local args = {
+                                        [1] = "DropMoney",
+                                        [2] = "10000"
+                                    }
+
+                                    game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
+                                    wait(15)
+                                end
+                            else
+
+                                getgenv().isDropping = false
+                                if getgenv().isDropping == false then
+                                    game:GetService("VirtualInputManager"):SendKeyEvent(false, 102, false, yomama)
+                                    local args = {
+                                        [1] = "Stopped Dropping!",
+                                        [2] = "All"
+                                    }
+
+                                    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(
+                                        unpack(args))
+                                end
+
+                            end
+
+                        end
+
+                        if finalMsg == getgenv().prefix .. "drop " .. plr.Name:lower() then
+
+                            if getgenv().isDropping == false then
+
+                                getgenv().isDropping = true
+
+                                if getgenv().isDropping == true then
+                                    game:GetService("VirtualInputManager"):SendKeyEvent(true, 102, false, yomama)
+                                    local args = {
+                                        [1] = "Started Dropping!",
+                                        [2] = "All"
+                                    }
+
+                                    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(
+                                        unpack(args))
+                                end
+                                while getgenv().isDropping == true do
+
+                                    if game:GetService("Players").LocalPlayer.DataFolder.Currency.Value < 10000 then
+                                        local args = {
+                                            [1] = "Ran out of money, Stopped Dropping.",
+                                            [2] = "All"
+                                        }
+
+                                        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
+                                            .SayMessageRequest:FireServer(unpack(args))
+                                    end
+
+                                    local args = {
+                                        [1] = "DropMoney",
+                                        [2] = "10000"
+                                    }
+
+                                    game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
+                                    wait(15)
+                                end
+                            else
+
+                                getgenv().isDropping = false
+                                if getgenv().isDropping == false then
+                                    game:GetService("VirtualInputManager"):SendKeyEvent(false, 102, false, yomama)
+                                    local args = {
+                                        [1] = "Stopped Dropping!",
+                                        [2] = "All"
+                                    }
+
+                                    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(
+                                        unpack(args))
+                                end
+
+                            end
+
+                        end
+
+                        if finalMsg == getgenv().prefix .. "ad" then
+                            
+
+                            if getgenv().adverting == false then
+
+                                getgenv().adverting = true
+
+                                while getgenv().adverting == true do
+
+                                    local args = {
+                                        [1] = getgenv().adMessage,
+                                        [2] = "All"
+                                    }
+
+                                    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(
+                                        unpack(args))
+                                    wait(getgenv().adMessageCooldown)
+
+                                end
+                            else
+
+                                getgenv().adverting = false
+
+                            end
+
+                        end
+
+                        if finalMsg == getgenv().prefix .. "ad " .. plr.Name:lower() then
+
+                            if getgenv().adverting == false then
+
+                                getgenv().adverting = true
+
+                                while getgenv().adverting == true do
+
+                                    local args = {
+                                        [1] = getgenv().adMessage,
+                                        [2] = "All"
+                                    }
+
+                                    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(
+                                        unpack(args))
+                                    wait(getgenv().adMessageCooldown)
+
+                                end
+                            else
+
+                                getgenv().adverting = false
+
+                            end
+
+                        end
+
+                        if finalMsg == getgenv().prefix .. "vibe" then
+
+                            game:GetService("Players"):Chat("/e dance2")
+
+                        end
+                        if finalMsg == getgenv().prefix .. "vibe " .. plr.Name:lower() then
+
+                            game:GetService("Players"):Chat("/e dance2")
+
+                        end
+
+                        if finalMsg == getgenv().prefix .. "wallet " .. plr.Name:lower() then
+                            for i, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+                                if v.name == "Wallet" then
+                                    v.Parent = game.Players.LocalPlayer.Character
+                                else
+                                    local localPlayer = game.Players.LocalPlayer
+                                    local humanoid = localPlayer.Character:FindFirstChildOfClass("Humanoid")
+                                    if humanoid then
+                                        humanoid:UnequipTools()
+                                    end
+                                end
+                            end
+
+                        end
+
+                        if finalMsg == getgenv().prefix .. "wallet" then
+                            for i, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+                                if v.name == "Wallet" then
+                                    v.Parent = game.Players.LocalPlayer.Character
+                                else
+                                    local localPlayer = game.Players.LocalPlayer
+                                    local humanoid = localPlayer.Character:FindFirstChildOfClass("Humanoid")
+                                    if humanoid then
+                                        humanoid:UnequipTools()
+                                    end
+                                end
+                            end
+
+                        end
+
+                        if finalMsg == getgenv().prefix .. "setspot " .. plr.Name:lower() then
+                            local args = {
+                                [1] = "Set spot successfully!",
+                                [2] = "All"
+                            }
+
+                            game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(
+                                unpack(args))
+                            local Players = game:GetService("Players")
+                            local function getPlayerByUserId(userId)
+                                for _, player in pairs(Players:GetPlayers()) do
+                                    if player.UserId == userId then
+                                        return player
+                                    end
+                                end
+                            end
+
+                            local plrrlrllr = getPlayerByUserId(getgenv().controller)
+
+                            getgenv().poss = plrrlrllr.Character.HumanoidRootPart.Position
+
+                        end
+                        if finalMsg == getgenv().prefix .. "setspot" then
+                            local args = {
+                                [1] = "Set spot successfully!",
+                                [2] = "All"
+                            }
+
+                            game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(
+                                unpack(args))
+                            local Players = game:GetService("Players")
+                            local function getPlayerByUserId(userId)
+                                for _, player in pairs(Players:GetPlayers()) do
+                                    if player.UserId == userId then
+                                        return player
+                                    end
+                                end
+                            end
+
+                            local plrrlrllr = getPlayerByUserId(getgenv().controller)
+
+                            getgenv().poss = plrrlrllr.Character.HumanoidRootPart.Position
+
+                        end
+
+                        if finalMsg == getgenv().prefix .. "money? " .. plr.Name:lower() then
+
+                            local args = {
+                                [1] = "I have " ..
+                                    game:GetService("Players").LocalPlayer.PlayerGui.MainScreenGui.MoneyText.Text,
+                                [2] = "All"
+                            }
+
+                            game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(
+                                unpack(args))
+
+                        end
+
+                        if finalMsg == getgenv().prefix .. "money?" then
+
+                            local args = {
+                                [1] = "I have " ..
+                                    game:GetService("Players").LocalPlayer.PlayerGui.MainScreenGui.MoneyText.Text,
+                                [2] = "All"
+                            }
+
+                            game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(
+                                unpack(args))
+
+                        end
+                        if finalMsg == getgenv().prefix .. "tospot " .. plr.Name:lower() then
+
+                            game.Players.LocalPlayer.Character.Head.Anchored = false
+                            game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(
+                                getgenv().poss)
+                            wait(0.5)
+                            game.Players.LocalPlayer.Character.Head.Anchored = true
+
+                        end
+                        if finalMsg == getgenv().prefix .. "tospot" then
+
+                            game.Players.LocalPlayer.Character.Head.Anchored = false
+                            game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(
+                                getgenv().poss)
+                            wait(0.5)
+                            game.Players.LocalPlayer.Character.Head.Anchored = true
+
+                        end
+                        if finalMsg == getgenv().prefix .. "unfly" then
+                            endFly()
+                        end
+                        if finalMsg == getgenv().prefix .. "unfly " .. plr.Name:lower() then
+                            endFly()
+                        end
+                        if finalMsg == getgenv().prefix .. "airlock " .. plr.Name:lower() then
+                            game.Players.LocalPlayer.Character.Head.Anchored = false
+                            local player = game.Players.LocalPlayer
+                            local character = player.Character
+                            local humanoid = character:FindFirstChild("Humanoid")
+                            local LPlr = game.Players.LocalPlayer
+                            local Character = LPlr.Character
+                            local HRP = Character:WaitForChild("HumanoidRootPart")
+                            humanoid.Jump = true
+                            wait(0.3)
+                            game.Players.LocalPlayer.Character.Head.Anchored = true
+
+                        end
+                        if finalMsg == getgenv().prefix .. "airlock" then
+                            game.Players.LocalPlayer.Character.Head.Anchored = false
+                            local player = game.Players.LocalPlayer
+                            local character = player.Character
+                            local humanoid = character:FindFirstChild("Humanoid")
+                            local LPlr = game.Players.LocalPlayer
+                            local Character = LPlr.Character
+                            local HRP = Character:WaitForChild("HumanoidRootPart")
+                            humanoid.Jump = true
+                            wait(0.3)
+                            game.Players.LocalPlayer.Character.Head.Anchored = true
+
+                        end
+                        if finalMsg == getgenv().prefix .. "kill" then
+                            humanoid.Health = 0
+                        end
+
+                        if finalMsg == getgenv().prefix .. "crash" then
+                            loadstring(game:HttpGet(
+                                'https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
+                            wait(2)
+                            local function firefakesignal(Button)
+                                game:GetService("VirtualInputManager"):SendMouseButtonEvent(Button.AbsolutePosition.X +
+                                                                                                Button.AbsoluteSize.X /
+                                                                                                2,
+                                    Button.AbsolutePosition.Y + Button.AbsoluteSize.Y / 2 + 30, 0, true, yomama, 1)
+                                game:GetService("VirtualInputManager"):SendMouseButtonEvent(Button.AbsolutePosition.X +
+                                                                                                Button.AbsoluteSize.X /
+                                                                                                2,
+                                    Button.AbsolutePosition.Y + Button.AbsoluteSize.Y / 2 + 30, 0, false, yomama, 1)
+                            end
+
+                            firefakesignal(game:GetService("CoreGui").SwagmodeCrasher["made_by_Lerk#7643"].CrashFrame
+                                               .Abuse)
+                        end
+
+                        if finalMsg == getgenv().prefix .. "kill " .. plr.Name:lower() then
+                            humanoid.Health = 0
+                        end
+
+                        if finalMsg == getgenv().prefix .. "kick" then
+                            plr:Kick("You've been kicked by the Controller.")
+                        end
+                        if finalMsg == getgenv().prefix .. "kick " .. plr.Name:lower() then
+                            plr:Kick("You've been kicked by the Controller.")
+                        end
+
+                        if finalMsg == getgenv().prefix .. "bringalts" then
+                            game.Players.LocalPlayer.Character.Head.Anchored = false
+                            PlayerHumanoid.RootPart.CFrame = LastTargetPosition + LastTargetPosition.LookVector * Length
+                            PlayerHumanoid.RootPart.CFrame =
+                                CFrame.new(PlayerHumanoid.RootPart.CFrame.Position, Vector3.new(
+                                    LastTargetPosition.Position.X, PlayerHumanoid.RootPart.CFrame.Position.Y,
+                                    LastTargetPosition.Position.Z))
+                        end
+
+                        if finalMsg == getgenv().prefix .. "bring " .. plr.Name:lower() then
+                            game.Players.LocalPlayer.Character.Head.Anchored = false
+                            PlayerHumanoid.RootPart.CFrame = LastTargetPosition + LastTargetPosition.LookVector * Length
+                            PlayerHumanoid.RootPart.CFrame =
+                                CFrame.new(PlayerHumanoid.RootPart.CFrame.Position, Vector3.new(
+                                    LastTargetPosition.Position.X, PlayerHumanoid.RootPart.CFrame.Position.Y,
+                                    LastTargetPosition.Position.Z))
+                        end
+
+                        if finalMsg == getgenv().prefix .. "freeze" then
+
+                            game.Players.LocalPlayer.Character.Head.Anchored = true
+
+                        end
+
+                        if finalMsg == getgenv().prefix .. "freeze " .. plr.Name:lower() then
+
+                            game.Players.LocalPlayer.Character.Head.Anchored = true
+
+                        end
+                        if finalMsg == getgenv().prefix .. "unfreeze" then
+
+                            game.Players.LocalPlayer.Character.Head.Anchored = false
+
+                        end
+                        if finalMsg == getgenv().prefix .. "unfreeze " .. plr.Name:lower() then
+
+                            game.Players.LocalPlayer.Character.Head.Anchored = false
+
+                        end
+                    end
+                end
+
+            end
+        end
+        Player.Chatted:Connect(Chatted)
+    end
+
+    local GetPlayers = Players:GetPlayers()
+    for i = 1, #GetPlayers do
+        local Player = GetPlayers[i]
+        coroutine.resume(coroutine.create(function()
+            PlayerAdded(Player)
+        end))
+    end
+    Players.PlayerAdded:Connect(PlayerAdded)
+
+    if game.Players.LocalPlayer.UserId == getgenv().controller then
+        function RandomVariable(length)
+            local res = ""
+            for i = 1, length do
+                res = res .. string.char(math.random(97, 122))
+            end
+            return res
+        end
+
+        -- Gui to Lua
+        -- Version: 3.2
+
+        -- Instances:
+
+        local HoxLZwzeCYfVwOkTlmXO = Instance.new("ScreenGui")
+        local Main = Instance.new("Frame")
+        local Sidebar = Instance.new("Frame")
+        local UICorner = Instance.new("UICorner")
+        local Home = Instance.new("ImageButton")
+        local Settings = Instance.new("ImageButton")
+        local Info = Instance.new("ImageButton")
+        local Teleports = Instance.new("ImageButton")
+        local Cmds = Instance.new("ImageButton")
+        local Search = Instance.new("ImageButton")
+        local UICorner_2 = Instance.new("UICorner")
+        local Sites = Instance.new("Frame")
+        local Home_2 = Instance.new("Frame")
+        local Username = Instance.new("TextLabel")
+        local Rank = Instance.new("TextLabel")
+        local WhatsNew = Instance.new("TextLabel")
+        local watext = Instance.new("TextLabel")
+        local Teleports_2 = Instance.new("Frame")
+        local TextButton = Instance.new("TextButton")
+        local UICorner_3 = Instance.new("UICorner")
+        local TextButton_2 = Instance.new("TextButton")
+        local UICorner_4 = Instance.new("UICorner")
+        local TextButton_3 = Instance.new("TextButton")
+        local UICorner_5 = Instance.new("UICorner")
+        local TextButton_4 = Instance.new("TextButton")
+        local UICorner_6 = Instance.new("UICorner")
+        local TextButton_5 = Instance.new("TextButton")
+        local UICorner_7 = Instance.new("UICorner")
+        local TextButton_6 = Instance.new("TextButton")
+        local UICorner_8 = Instance.new("UICorner")
+        local TextButton_7 = Instance.new("TextButton")
+        local UICorner_9 = Instance.new("UICorner")
+        local TextButton_8 = Instance.new("TextButton")
+        local UICorner_10 = Instance.new("UICorner")
+        local TextButton_9 = Instance.new("TextButton")
+        local UICorner_11 = Instance.new("UICorner")
+        local TextButton_10 = Instance.new("TextButton")
+        local UICorner_12 = Instance.new("UICorner")
+        local TextButton_11 = Instance.new("TextButton")
+        local UICorner_13 = Instance.new("UICorner")
+        local TextButton_12 = Instance.new("TextButton")
+        local UICorner_14 = Instance.new("UICorner")
+        local Title = Instance.new("TextLabel")
+        local Cmds_2 = Instance.new("Frame")
+        local Username_2 = Instance.new("TextLabel")
+        local Rank_2 = Instance.new("TextLabel")
+        local Rank_3 = Instance.new("TextLabel")
+        local Rank_4 = Instance.new("TextLabel")
+        local Rank_5 = Instance.new("TextLabel")
+        local Rank_6 = Instance.new("TextLabel")
+        local Rank_7 = Instance.new("TextLabel")
+        local Rank_8 = Instance.new("TextLabel")
+        local Rank_9 = Instance.new("TextLabel")
+        local Rank_10 = Instance.new("TextLabel")
+        local Rank_11 = Instance.new("TextLabel")
+        local Rank_12 = Instance.new("TextLabel")
+        local Rank_13 = Instance.new("TextLabel")
+        local Rank_14 = Instance.new("TextLabel")
+        local Rank_15 = Instance.new("TextLabel")
+        local Rank_16 = Instance.new("TextLabel")
+        local Info_2 = Instance.new("Frame")
+        local Username_3 = Instance.new("TextLabel")
+        local Rank_17 = Instance.new("TextLabel")
+        local Settings_2 = Instance.new("Frame")
+        local Username_4 = Instance.new("TextLabel")
+        local Rank_18 = Instance.new("TextLabel")
+        local Search_2 = Instance.new("Frame")
+        local Title_2 = Instance.new("TextLabel")
+        local TextBox = Instance.new("TextBox")
+        local UICorner_15 = Instance.new("UICorner")
+        local searchBTN = Instance.new("TextButton")
+        local UICorner_16 = Instance.new("UICorner")
+        local username = Instance.new("TextLabel")
+        local cash = Instance.new("TextLabel")
+        local UserIMG = Instance.new("ImageLabel")
+        local UICorner_17 = Instance.new("UICorner")
+        local wanted = Instance.new("TextLabel")
+        local Title_3 = Instance.new("TextLabel")
+
+        -- Properties:
+
+        HoxLZwzeCYfVwOkTlmXO.Name = RandomVariable(20)
+        HoxLZwzeCYfVwOkTlmXO.Parent = game.CoreGui
+        HoxLZwzeCYfVwOkTlmXO.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+        Main.Name = "Main"
+        Main.Parent = HoxLZwzeCYfVwOkTlmXO
+        Main.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+        Main.BorderSizePixel = 0
+        Main.Position = UDim2.new(0.168555707, 0, 0.392983228, 0)
+        Main.Size = UDim2.new(0, 606, 0, 338)
+
+        Sidebar.Name = "Sidebar"
+        Sidebar.Parent = Main
+        Sidebar.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+        Sidebar.BorderSizePixel = 0
+        Sidebar.Size = UDim2.new(0, 65, 0, 338)
+
+        UICorner.CornerRadius = UDim.new(0, 4)
+        UICorner.Parent = Sidebar
+
+        Home.Name = "Home"
+        Home.Parent = Sidebar
+        Home.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Home.BackgroundTransparency = 1.000
+        Home.Position = UDim2.new(0.230769232, 0, 0.041420117, 0)
+        Home.Size = UDim2.new(0, 35, 0, 35)
+        Home.Image = "rbxassetid://9264541932"
+
+        Settings.Name = "Settings"
+        Settings.Parent = Sidebar
+        Settings.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Settings.BackgroundTransparency = 1.000
+        Settings.Position = UDim2.new(0.230769232, 0, 0.855029583, 0)
+        Settings.Size = UDim2.new(0, 35, 0, 35)
+        Settings.Image = "rbxassetid://9264554833"
+
+        Info.Name = "Info"
+        Info.Parent = Sidebar
+        Info.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Info.BackgroundTransparency = 1.000
+        Info.Position = UDim2.new(0.230769232, 0, 0.70710057, 0)
+        Info.Size = UDim2.new(0, 35, 0, 35)
+        Info.Image = "rbxassetid://9264635930"
+
+        Teleports.Name = "Teleports"
+        Teleports.Parent = Sidebar
+        Teleports.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Teleports.BackgroundTransparency = 1.000
+        Teleports.Position = UDim2.new(0.230769232, 0, 0.195266277, 0)
+        Teleports.Size = UDim2.new(0, 35, 0, 35)
+        Teleports.Image = "rbxassetid://9264768136"
+
+        Cmds.Name = "Cmds"
+        Cmds.Parent = Sidebar
+        Cmds.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Cmds.BackgroundTransparency = 1.000
+        Cmds.Position = UDim2.new(0.230769232, 0, 0.352071017, 0)
+        Cmds.Size = UDim2.new(0, 35, 0, 35)
+        Cmds.Image = "rbxassetid://9264822672"
+
+        Search.Name = "Search"
+        Search.Parent = Sidebar
+        Search.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Search.BackgroundTransparency = 1.000
+        Search.Position = UDim2.new(0.230769232, 0, 0.497041434, 0)
+        Search.Size = UDim2.new(0, 35, 0, 35)
+        Search.Image = "rbxassetid://9288309850"
+
+        UICorner_2.CornerRadius = UDim.new(0, 4)
+        UICorner_2.Parent = Main
+
+        Sites.Name = "Sites"
+        Sites.Parent = Main
+        Sites.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Sites.BackgroundTransparency = 1.000
+        Sites.Position = UDim2.new(0.107260726, 0, 0, 0)
+        Sites.Size = UDim2.new(0, 541, 0, 338)
+
+        Home_2.Name = "Home"
+        Home_2.Parent = Sites
+        Home_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Home_2.BackgroundTransparency = 1.000
+        Home_2.Size = UDim2.new(0, 541, 0, 338)
+
+        Username.Name = "Username"
+        Username.Parent = Home_2
+        Username.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Username.BackgroundTransparency = 1.000
+        Username.BorderSizePixel = 0
+        Username.Position = UDim2.new(0.0177452099, 0, 0.15242745, 0)
+        Username.Size = UDim2.new(0, 335, 0, 21)
+        Username.Font = Enum.Font.Code
+        Username.Text = "Username: USER_HOLDER"
+        Username.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Username.TextSize = 18.000
+        Username.TextWrapped = true
+        Username.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank.Name = "Rank"
+        Rank.Parent = Home_2
+        Rank.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank.BackgroundTransparency = 1.000
+        Rank.BorderSizePixel = 0
+        Rank.Position = UDim2.new(0.0177452099, 0, 0.214557633, 0)
+        Rank.Size = UDim2.new(0, 335, 0, 21)
+        Rank.Font = Enum.Font.Code
+        Rank.Text = " "
+        Rank.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank.TextSize = 18.000
+        Rank.TextWrapped = true
+        Rank.TextXAlignment = Enum.TextXAlignment.Left
+
+        WhatsNew.Name = "Whats New?"
+        WhatsNew.Parent = Home_2
+        WhatsNew.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        WhatsNew.BackgroundTransparency = 1.000
+        WhatsNew.BorderSizePixel = 0
+        WhatsNew.Position = UDim2.new(0.0177452099, 0, 0.374320924, 0)
+        WhatsNew.Size = UDim2.new(0, 335, 0, 28)
+        WhatsNew.Font = Enum.Font.Code
+        WhatsNew.Text = "Enjoy!"
+        WhatsNew.TextColor3 = Color3.fromRGB(220, 220, 220)
+        WhatsNew.TextSize = 26.000
+        WhatsNew.TextWrapped = true
+        WhatsNew.TextXAlignment = Enum.TextXAlignment.Left
+
+        watext.Name = "watext"
+        watext.Parent = Home_2
+        watext.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        watext.BackgroundTransparency = 1.000
+        watext.BorderSizePixel = 0
+        watext.Position = UDim2.new(0.0177452099, 0, 0.457161278, 0)
+        watext.Size = UDim2.new(0, 515, 0, 169)
+        watext.Font = Enum.Font.Code
+        watext.Text = "Loading..."
+        watext.TextColor3 = Color3.fromRGB(220, 220, 220)
+        watext.TextSize = 18.000
+        watext.TextWrapped = true
+        watext.TextXAlignment = Enum.TextXAlignment.Left
+        watext.TextYAlignment = Enum.TextYAlignment.Top
+
+        Teleports_2.Name = "Teleports"
+        Teleports_2.Parent = Sites
+        Teleports_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Teleports_2.BackgroundTransparency = 1.000
+        Teleports_2.Size = UDim2.new(0, 541, 0, 338)
+        Teleports_2.Visible = false
+
+        TextButton.Parent = Teleports_2
+        TextButton.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        TextButton.Position = UDim2.new(0.0166358575, 0, 0.221893474, 0)
+        TextButton.Size = UDim2.new(0, 132, 0, 45)
+        TextButton.Font = Enum.Font.Code
+        TextButton.Text = "Bank"
+        TextButton.TextColor3 = Color3.fromRGB(220, 220, 220)
+        TextButton.TextSize = 14.000
+
+        UICorner_3.Parent = TextButton
+
+        TextButton_2.Parent = Teleports_2
+        TextButton_2.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        TextButton_2.Position = UDim2.new(0.297597051, 0, 0.221893474, 0)
+        TextButton_2.Size = UDim2.new(0, 132, 0, 45)
+        TextButton_2.Font = Enum.Font.Code
+        TextButton_2.Text = "Playground"
+        TextButton_2.TextColor3 = Color3.fromRGB(220, 220, 220)
+        TextButton_2.TextSize = 14.000
+
+        UICorner_4.Parent = TextButton_2
+
+        TextButton_3.Parent = Teleports_2
+        TextButton_3.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        TextButton_3.Position = UDim2.new(0.584103465, 0, 0.221893474, 0)
+        TextButton_3.Size = UDim2.new(0, 132, 0, 45)
+        TextButton_3.Font = Enum.Font.Code
+        TextButton_3.Text = "Train"
+        TextButton_3.TextColor3 = Color3.fromRGB(220, 220, 220)
+        TextButton_3.TextSize = 14.000
+
+        UICorner_5.Parent = TextButton_3
+
+        TextButton_4.Parent = Teleports_2
+        TextButton_4.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        TextButton_4.Position = UDim2.new(0.584103465, 0, 0.396449685, 0)
+        TextButton_4.Size = UDim2.new(0, 132, 0, 45)
+        TextButton_4.Font = Enum.Font.Code
+        TextButton_4.Text = "Basket"
+        TextButton_4.TextColor3 = Color3.fromRGB(220, 220, 220)
+        TextButton_4.TextSize = 14.000
+
+        UICorner_6.Parent = TextButton_4
+
+        TextButton_5.Parent = Teleports_2
+        TextButton_5.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        TextButton_5.Position = UDim2.new(0.297597051, 0, 0.396449685, 0)
+        TextButton_5.Size = UDim2.new(0, 132, 0, 45)
+        TextButton_5.Font = Enum.Font.Code
+        TextButton_5.Text = "School"
+        TextButton_5.TextColor3 = Color3.fromRGB(220, 220, 220)
+        TextButton_5.TextSize = 14.000
+
+        UICorner_7.Parent = TextButton_5
+
+        TextButton_6.Parent = Teleports_2
+        TextButton_6.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        TextButton_6.Position = UDim2.new(0.0166358575, 0, 0.396449685, 0)
+        TextButton_6.Size = UDim2.new(0, 132, 0, 45)
+        TextButton_6.Font = Enum.Font.Code
+        TextButton_6.Text = "Club"
+        TextButton_6.TextColor3 = Color3.fromRGB(220, 220, 220)
+        TextButton_6.TextSize = 14.000
+
+        UICorner_8.Parent = TextButton_6
+
+        TextButton_7.Parent = Teleports_2
+        TextButton_7.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        TextButton_7.Position = UDim2.new(0.584103465, 0, 0.573964477, 0)
+        TextButton_7.Size = UDim2.new(0, 132, 0, 45)
+        TextButton_7.Font = Enum.Font.Code
+        TextButton_7.Text = "Safezone"
+        TextButton_7.TextColor3 = Color3.fromRGB(220, 220, 220)
+        TextButton_7.TextSize = 14.000
+
+        UICorner_9.Parent = TextButton_7
+
+        TextButton_8.Parent = Teleports_2
+        TextButton_8.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        TextButton_8.Position = UDim2.new(0.297597051, 0, 0.573964477, 0)
+        TextButton_8.Size = UDim2.new(0, 132, 0, 45)
+        TextButton_8.Font = Enum.Font.Code
+        TextButton_8.Text = "Ufo"
+        TextButton_8.TextColor3 = Color3.fromRGB(220, 220, 220)
+        TextButton_8.TextSize = 14.000
+
+        UICorner_10.Parent = TextButton_8
+
+        TextButton_9.Parent = Teleports_2
+        TextButton_9.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        TextButton_9.Position = UDim2.new(0.0166358575, 0, 0.573964477, 0)
+        TextButton_9.Size = UDim2.new(0, 132, 0, 45)
+        TextButton_9.Font = Enum.Font.Code
+        TextButton_9.Text = "Police"
+        TextButton_9.TextColor3 = Color3.fromRGB(220, 220, 220)
+        TextButton_9.TextSize = 14.000
+
+        UICorner_11.Parent = TextButton_9
+
+        TextButton_10.Parent = Teleports_2
+        TextButton_10.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        TextButton_10.Position = UDim2.new(0.584103465, 0, 0.751479208, 0)
+        TextButton_10.Size = UDim2.new(0, 132, 0, 45)
+        TextButton_10.Font = Enum.Font.Code
+        TextButton_10.Text = "Shop2"
+        TextButton_10.TextColor3 = Color3.fromRGB(220, 220, 220)
+        TextButton_10.TextSize = 14.000
+
+        UICorner_12.Parent = TextButton_10
+
+        TextButton_11.Parent = Teleports_2
+        TextButton_11.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        TextButton_11.Position = UDim2.new(0.297597051, 0, 0.751479208, 0)
+        TextButton_11.Size = UDim2.new(0, 132, 0, 45)
+        TextButton_11.Font = Enum.Font.Code
+        TextButton_11.Text = "Shop1"
+        TextButton_11.TextColor3 = Color3.fromRGB(220, 220, 220)
+        TextButton_11.TextSize = 14.000
+
+        UICorner_13.Parent = TextButton_11
+
+        TextButton_12.Parent = Teleports_2
+        TextButton_12.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        TextButton_12.Position = UDim2.new(0.0166358575, 0, 0.751479208, 0)
+        TextButton_12.Size = UDim2.new(0, 132, 0, 45)
+        TextButton_12.Font = Enum.Font.Code
+        TextButton_12.Text = "Admin"
+        TextButton_12.TextColor3 = Color3.fromRGB(220, 220, 220)
+        TextButton_12.TextSize = 14.000
+
+        UICorner_14.Parent = TextButton_12
+
+        Title.Name = "Title"
+        Title.Parent = Teleports_2
+        Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Title.BackgroundTransparency = 1.000
+        Title.BorderSizePixel = 0
+        Title.Position = UDim2.new(0.0183918625, 0, 0.109467454, 0)
+        Title.Size = UDim2.new(0, 153, 0, 21)
+        Title.Font = Enum.Font.Code
+        Title.Text = "Teleports"
+        Title.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Title.TextSize = 20.000
+        Title.TextWrapped = true
+        Title.TextXAlignment = Enum.TextXAlignment.Left
+
+        Cmds_2.Name = "Cmds"
+        Cmds_2.Parent = Sites
+        Cmds_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Cmds_2.BackgroundTransparency = 1.000
+        Cmds_2.Size = UDim2.new(0, 541, 0, 338)
+        Cmds_2.Visible = false
+
+        Username_2.Name = "Username"
+        Username_2.Parent = Cmds_2
+        Username_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Username_2.BackgroundTransparency = 1.000
+        Username_2.BorderSizePixel = 0
+        Username_2.Position = UDim2.new(0.0177452099, 0, 0.15242745, 0)
+        Username_2.Size = UDim2.new(0, 335, 0, 21)
+        Username_2.Font = Enum.Font.Code
+        Username_2.Text = "Commands"
+        Username_2.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Username_2.TextSize = 18.000
+        Username_2.TextWrapped = true
+        Username_2.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_2.Name = "Rank"
+        Rank_2.Parent = Cmds_2
+        Rank_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_2.BackgroundTransparency = 1.000
+        Rank_2.BorderSizePixel = 0
+        Rank_2.Position = UDim2.new(0.0177452099, 0, 0.241184741, 0)
+        Rank_2.Size = UDim2.new(0, 390, 0, 21)
+        Rank_2.Font = Enum.Font.Code
+        Rank_2.Text = "setup {bank, admin, }"
+        Rank_2.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_2.TextSize = 18.000
+        Rank_2.TextWrapped = true
+        Rank_2.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_3.Name = "Rank"
+        Rank_3.Parent = Cmds_2
+        Rank_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_3.BackgroundTransparency = 1.000
+        Rank_3.BorderSizePixel = 0
+        Rank_3.Position = UDim2.new(0.0177452099, 0, 0.303314924, 0)
+        Rank_3.Size = UDim2.new(0, 390, 0, 21)
+        Rank_3.Font = Enum.Font.Code
+        Rank_3.Text = "airlock {alt user,if not all}"
+        Rank_3.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_3.TextSize = 18.000
+        Rank_3.TextWrapped = true
+        Rank_3.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_4.Name = "Rank"
+        Rank_4.Parent = Cmds_2
+        Rank_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_4.BackgroundTransparency = 1.000
+        Rank_4.BorderSizePixel = 0
+        Rank_4.Position = UDim2.new(0.0177452099, 0, 0.365445107, 0)
+        Rank_4.Size = UDim2.new(0, 390, 0, 21)
+        Rank_4.Font = Enum.Font.Code
+        Rank_4.Text = "money? {alt user,if not all}"
+        Rank_4.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_4.TextSize = 18.000
+        Rank_4.TextWrapped = true
+        Rank_4.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_5.Name = "Rank"
+        Rank_5.Parent = Cmds_2
+        Rank_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_5.BackgroundTransparency = 1.000
+        Rank_5.BorderSizePixel = 0
+        Rank_5.Position = UDim2.new(0.0177452099, 0, 0.42757529, 0)
+        Rank_5.Size = UDim2.new(0, 390, 0, 21)
+        Rank_5.Font = Enum.Font.Code
+        Rank_5.Text = "drop {alt user,if not all}"
+        Rank_5.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_5.TextSize = 18.000
+        Rank_5.TextWrapped = true
+        Rank_5.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_6.Name = "Rank"
+        Rank_6.Parent = Cmds_2
+        Rank_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_6.BackgroundTransparency = 1.000
+        Rank_6.BorderSizePixel = 0
+        Rank_6.Position = UDim2.new(0.0177452099, 0, 0.489705473, 0)
+        Rank_6.Size = UDim2.new(0, 390, 0, 21)
+        Rank_6.Font = Enum.Font.Code
+        Rank_6.Text = "setspot {alt user,if not all}"
+        Rank_6.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_6.TextSize = 18.000
+        Rank_6.TextWrapped = true
+        Rank_6.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_7.Name = "Rank"
+        Rank_7.Parent = Cmds_2
+        Rank_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_7.BackgroundTransparency = 1.000
+        Rank_7.BorderSizePixel = 0
+        Rank_7.Position = UDim2.new(0.0177452099, 0, 0.551835656, 0)
+        Rank_7.Size = UDim2.new(0, 390, 0, 21)
+        Rank_7.Font = Enum.Font.Code
+        Rank_7.Text = "tospot {alt user,if not all}"
+        Rank_7.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_7.TextSize = 18.000
+        Rank_7.TextWrapped = true
+        Rank_7.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_8.Name = "Rank"
+        Rank_8.Parent = Cmds_2
+        Rank_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_8.BackgroundTransparency = 1.000
+        Rank_8.BorderSizePixel = 0
+        Rank_8.Position = UDim2.new(0.0177452099, 0, 0.613965809, 0)
+        Rank_8.Size = UDim2.new(0, 390, 0, 21)
+        Rank_8.Font = Enum.Font.Code
+        Rank_8.Text = "bringalts"
+        Rank_8.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_8.TextSize = 18.000
+        Rank_8.TextWrapped = true
+        Rank_8.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_9.Name = "Rank"
+        Rank_9.Parent = Cmds_2
+        Rank_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_9.BackgroundTransparency = 1.000
+        Rank_9.BorderSizePixel = 0
+        Rank_9.Position = UDim2.new(0.0177452099, 0, 0.738226175, 0)
+        Rank_9.Size = UDim2.new(0, 390, 0, 21)
+        Rank_9.Font = Enum.Font.Code
+        Rank_9.Text = "kill {alt user,if not all}"
+        Rank_9.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_9.TextSize = 18.000
+        Rank_9.TextWrapped = true
+        Rank_9.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_10.Name = "Rank"
+        Rank_10.Parent = Cmds_2
+        Rank_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_10.BackgroundTransparency = 1.000
+        Rank_10.BorderSizePixel = 0
+        Rank_10.Position = UDim2.new(0.0177452099, 0, 0.676096022, 0)
+        Rank_10.Size = UDim2.new(0, 390, 0, 21)
+        Rank_10.Font = Enum.Font.Code
+        Rank_10.Text = "bring {alt user,if not all}"
+        Rank_10.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_10.TextSize = 18.000
+        Rank_10.TextWrapped = true
+        Rank_10.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_11.Name = "Rank"
+        Rank_11.Parent = Cmds_2
+        Rank_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_11.BackgroundTransparency = 1.000
+        Rank_11.BorderSizePixel = 0
+        Rank_11.Position = UDim2.new(0.0177452099, 0, 0.800356328, 0)
+        Rank_11.Size = UDim2.new(0, 390, 0, 21)
+        Rank_11.Font = Enum.Font.Code
+        Rank_11.Text = "kick {alt user,if not all}"
+        Rank_11.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_11.TextSize = 18.000
+        Rank_11.TextWrapped = true
+        Rank_11.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_12.Name = "Rank"
+        Rank_12.Parent = Cmds_2
+        Rank_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_12.BackgroundTransparency = 1.000
+        Rank_12.BorderSizePixel = 0
+        Rank_12.Position = UDim2.new(0.0177452099, 0, 0.859527946, 0)
+        Rank_12.Size = UDim2.new(0, 390, 0, 21)
+        Rank_12.Font = Enum.Font.Code
+        Rank_12.Text = "freeze {alt user,if not all}"
+        Rank_12.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_12.TextSize = 18.000
+        Rank_12.TextWrapped = true
+        Rank_12.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_13.Name = "Rank"
+        Rank_13.Parent = Cmds_2
+        Rank_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_13.BackgroundTransparency = 1.000
+        Rank_13.BorderSizePixel = 0
+        Rank_13.Position = UDim2.new(0.0177452099, 0, 0.918699563, 0)
+        Rank_13.Size = UDim2.new(0, 390, 0, 21)
+        Rank_13.Font = Enum.Font.Code
+        Rank_13.Text = "unfreeze {alt user,if not all}"
+        Rank_13.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_13.TextSize = 18.000
+        Rank_13.TextWrapped = true
+        Rank_13.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_14.Name = "Rank"
+        Rank_14.Parent = Cmds_2
+        Rank_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_14.BackgroundTransparency = 1.000
+        Rank_14.BorderSizePixel = 0
+        Rank_14.Position = UDim2.new(0.511275709, 0, 0.241184801, 0)
+        Rank_14.Size = UDim2.new(0, 390, 0, 21)
+        Rank_14.Font = Enum.Font.Code
+        Rank_14.Text = "vibe {alt user,if not all}"
+        Rank_14.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_14.TextSize = 18.000
+        Rank_14.TextWrapped = true
+        Rank_14.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_15.Name = "Rank"
+        Rank_15.Parent = Cmds_2
+        Rank_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_15.BackgroundTransparency = 1.000
+        Rank_15.BorderSizePixel = 0
+        Rank_15.Position = UDim2.new(0.511275709, 0, 0.303314984, 0)
+        Rank_15.Size = UDim2.new(0, 390, 0, 21)
+        Rank_15.Font = Enum.Font.Code
+        Rank_15.Text = "ad {alt user,if not all}"
+        Rank_15.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_15.TextSize = 18.000
+        Rank_15.TextWrapped = true
+        Rank_15.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_16.Name = "Rank"
+        Rank_16.Parent = Cmds_2
+        Rank_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_16.BackgroundTransparency = 1.000
+        Rank_16.BorderSizePixel = 0
+        Rank_16.Position = UDim2.new(0.511275709, 0, 0.365445167, 0)
+        Rank_16.Size = UDim2.new(0, 390, 0, 21)
+        Rank_16.Font = Enum.Font.Code
+        Rank_16.Text = "crash (REQUIRES A DECENT PC)"
+        Rank_16.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_16.TextSize = 18.000
+        Rank_16.TextWrapped = true
+        Rank_16.TextXAlignment = Enum.TextXAlignment.Left
+
+        Info_2.Name = "Info"
+        Info_2.Parent = Sites
+        Info_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Info_2.BackgroundTransparency = 1.000
+        Info_2.Size = UDim2.new(0, 541, 0, 338)
+        Info_2.Visible = false
+
+        Username_3.Name = "Username"
+        Username_3.Parent = Info_2
+        Username_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Username_3.BackgroundTransparency = 1.000
+        Username_3.BorderSizePixel = 0
+        Username_3.Position = UDim2.new(0.0177452099, 0, 0.15242745, 0)
+        Username_3.Size = UDim2.new(0, 335, 0, 21)
+        Username_3.Font = Enum.Font.Code
+        Username_3.Text = "Info"
+        Username_3.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Username_3.TextSize = 18.000
+        Username_3.TextWrapped = true
+        Username_3.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_17.Name = "Rank"
+        Rank_17.Parent = Info_2
+        Rank_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_17.BackgroundTransparency = 1.000
+        Rank_17.BorderSizePixel = 0
+        Rank_17.Position = UDim2.new(0.0177452099, 0, 0.288522124, 0)
+        Rank_17.Size = UDim2.new(0, 513, 0, 226)
+        Rank_17.Font = Enum.Font.Code
+        Rank_17.Text =
+            "This script is Made By Ghouls/Muso"
+        Rank_17.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_17.TextSize = 18.000
+        Rank_17.TextWrapped = true
+        Rank_17.TextXAlignment = Enum.TextXAlignment.Left
+        Rank_17.TextYAlignment = Enum.TextYAlignment.Top
+
+        Settings_2.Name = "Settings"
+        Settings_2.Parent = Sites
+        Settings_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Settings_2.BackgroundTransparency = 1.000
+        Settings_2.Size = UDim2.new(0, 541, 0, 338)
+        Settings_2.Visible = false
+
+        Username_4.Name = "Username"
+        Username_4.Parent = Settings_2
+        Username_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Username_4.BackgroundTransparency = 1.000
+        Username_4.BorderSizePixel = 0
+        Username_4.Position = UDim2.new(0.0177452099, 0, 0.15242745, 0)
+        Username_4.Size = UDim2.new(0, 335, 0, 21)
+        Username_4.Font = Enum.Font.Code
+        Username_4.Text = "Settings"
+        Username_4.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Username_4.TextSize = 18.000
+        Username_4.TextWrapped = true
+        Username_4.TextXAlignment = Enum.TextXAlignment.Left
+
+        Rank_18.Name = "Rank"
+        Rank_18.Parent = Settings_2
+        Rank_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Rank_18.BackgroundTransparency = 1.000
+        Rank_18.BorderSizePixel = 0
+        Rank_18.Position = UDim2.new(0.133086875, 0, 0.362486631, 0)
+        Rank_18.Size = UDim2.new(0, 391, 0, 92)
+        Rank_18.Font = Enum.Font.Code
+        Rank_18.Text = "THIS FEATURE IS COMING SOON!"
+        Rank_18.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Rank_18.TextSize = 18.000
+        Rank_18.TextWrapped = true
+
+        Search_2.Name = "Search"
+        Search_2.Parent = Sites
+        Search_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Search_2.BackgroundTransparency = 1.000
+        Search_2.Size = UDim2.new(0, 541, 0, 338)
+        Search_2.Visible = false
+
+        Title_2.Name = "Title"
+        Title_2.Parent = Search_2
+        Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Title_2.BackgroundTransparency = 1.000
+        Title_2.BorderSizePixel = 0
+        Title_2.Position = UDim2.new(0.0177452099, 0, 0.15242745, 0)
+        Title_2.Size = UDim2.new(0, 335, 0, 21)
+        Title_2.Font = Enum.Font.Code
+        Title_2.Text = "Search For Account Informations"
+        Title_2.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Title_2.TextSize = 18.000
+        Title_2.TextWrapped = true
+        Title_2.TextXAlignment = Enum.TextXAlignment.Left
+
+        TextBox.Parent = Search_2
+        TextBox.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+        TextBox.Position = UDim2.new(0.0166358594, 0, 0.724852026, 0)
+        TextBox.Size = UDim2.new(0, 268, 0, 37)
+        TextBox.ZIndex = 5
+        TextBox.Font = Enum.Font.Code
+        TextBox.LineHeight = 1.100
+        TextBox.PlaceholderText = "Put Full Username Please!"
+        TextBox.Text = ""
+        TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+        TextBox.TextSize = 14.000
+
+        UICorner_15.Parent = TextBox
+
+        searchBTN.Name = "searchBTN"
+        searchBTN.Parent = Search_2
+        searchBTN.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        searchBTN.Position = UDim2.new(0.0166358594, 0, 0.855029583, 0)
+        searchBTN.Size = UDim2.new(0, 106, 0, 36)
+        searchBTN.Font = Enum.Font.Code
+        searchBTN.Text = "Search"
+        searchBTN.TextColor3 = Color3.fromRGB(230, 230, 230)
+        searchBTN.TextSize = 14.000
+
+        UICorner_16.Parent = searchBTN
+
+        username.Name = "username"
+        username.Parent = Search_2
+        username.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        username.BackgroundTransparency = 1.000
+        username.BorderSizePixel = 0
+        username.Position = UDim2.new(0.0177452099, 0, 0.264853477, 0)
+        username.Size = UDim2.new(0, 335, 0, 21)
+        username.Font = Enum.Font.Code
+        username.Text = "Username: HOLDER"
+        username.TextColor3 = Color3.fromRGB(220, 220, 220)
+        username.TextSize = 18.000
+        username.TextWrapped = true
+        username.TextXAlignment = Enum.TextXAlignment.Left
+
+        cash.Name = "cash"
+        cash.Parent = Search_2
+        cash.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        cash.BackgroundTransparency = 1.000
+        cash.BorderSizePixel = 0
+        cash.Position = UDim2.new(0.0177452099, 0, 0.338817954, 0)
+        cash.Size = UDim2.new(0, 335, 0, 21)
+        cash.Font = Enum.Font.Code
+        cash.Text = "Money: HOLDER"
+        cash.TextColor3 = Color3.fromRGB(220, 220, 220)
+        cash.TextSize = 18.000
+        cash.TextWrapped = true
+        cash.TextXAlignment = Enum.TextXAlignment.Left
+
+        UserIMG.Name = "UserIMG"
+        UserIMG.Parent = Search_2
+        UserIMG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        UserIMG.BackgroundTransparency = 1.000
+        UserIMG.Position = UDim2.new(0.780036926, 0, 0.177514777, 0)
+        UserIMG.Size = UDim2.new(0, 100, 0, 100)
+        UserIMG.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+        UICorner_17.CornerRadius = UDim.new(1, 10)
+        UICorner_17.Parent = UserIMG
+
+        wanted.Name = "wanted"
+        wanted.Parent = Search_2
+        wanted.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        wanted.BackgroundTransparency = 1.000
+        wanted.BorderSizePixel = 0
+        wanted.Position = UDim2.new(0.0177452099, 0, 0.41278249, 0)
+        wanted.Size = UDim2.new(0, 335, 0, 21)
+        wanted.Font = Enum.Font.Code
+        wanted.Text = "Wanted: HOLDER"
+        wanted.TextColor3 = Color3.fromRGB(220, 220, 220)
+        wanted.TextSize = 18.000
+        wanted.TextWrapped = true
+        wanted.TextXAlignment = Enum.TextXAlignment.Left
+
+        Title_3.Name = "Title"
+        Title_3.Parent = Main
+        Title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Title_3.BackgroundTransparency = 1.000
+        Title_3.BorderSizePixel = 0
+        Title_3.Position = UDim2.new(0.123752303, 0, 0.0177514795, 0)
+        Title_3.Size = UDim2.new(0, 153, 0, 21)
+        Title_3.Font = Enum.Font.Code
+        Title_3.Text = "Ghoul's Alt Control Gui"
+        Title_3.TextColor3 = Color3.fromRGB(220, 220, 220)
+        Title_3.TextSize = 14.000
+        Title_3.TextWrapped = true
+        Title_3.TextXAlignment = Enum.TextXAlignment.Left
+
+        -- Scripts:
+
+        local function GRQO_fake_script() -- Home.LocalScript 
+            local script = Instance.new('LocalScript', Home)
+
+            local Home = script.Parent.Parent.Parent.Sites.Home
+            local Teleport = script.Parent.Parent.Parent.Sites.Teleports
+            local Cmds = script.Parent.Parent.Parent.Sites.Cmds
+            local Settings = script.Parent.Parent.Parent.Sites.Settings
+            local Info = script.Parent.Parent.Parent.Sites.Info
+            local Search = script.Parent.Parent.Parent.Sites.Search
+
+            local button = script.Parent
+
+            function leftClick()
+                Search.Visible = false
+                Home.Visible = true
+                Teleport.Visible = false
+                Cmds.Visible = false
+                Settings.Visible = false
+                Info.Visible = false
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(GRQO_fake_script)()
+        local function TNFK_fake_script() -- Settings.LocalScript 
+            local script = Instance.new('LocalScript', Settings)
+
+            local Home = script.Parent.Parent.Parent.Sites.Home
+            local Teleport = script.Parent.Parent.Parent.Sites.Teleports
+            local Cmds = script.Parent.Parent.Parent.Sites.Cmds
+            local Settings = script.Parent.Parent.Parent.Sites.Settings
+            local Info = script.Parent.Parent.Parent.Sites.Info
+            local Search = script.Parent.Parent.Parent.Sites.Search
+
+            local button = script.Parent
+
+            function leftClick()
+                Search.Visible = false
+                Home.Visible = false
+                Teleport.Visible = false
+                Cmds.Visible = false
+                Settings.Visible = true
+                Info.Visible = false
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(TNFK_fake_script)()
+        local function YXXMEU_fake_script() -- Info.LocalScript 
+            local script = Instance.new('LocalScript', Info)
+
+            local Home = script.Parent.Parent.Parent.Sites.Home
+            local Teleport = script.Parent.Parent.Parent.Sites.Teleports
+            local Cmds = script.Parent.Parent.Parent.Sites.Cmds
+            local Settings = script.Parent.Parent.Parent.Sites.Settings
+            local Info = script.Parent.Parent.Parent.Sites.Info
+            local Search = script.Parent.Parent.Parent.Sites.Search
+
+            local button = script.Parent
+
+            function leftClick()
+                Search.Visible = false
+                Home.Visible = false
+                Teleport.Visible = false
+                Cmds.Visible = false
+                Settings.Visible = false
+                Info.Visible = true
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(YXXMEU_fake_script)()
+        local function DGHUM_fake_script() -- Teleports.LocalScript 
+            local script = Instance.new('LocalScript', Teleports)
+
+            local Home = script.Parent.Parent.Parent.Sites.Home
+            local Teleport = script.Parent.Parent.Parent.Sites.Teleports
+            local Cmds = script.Parent.Parent.Parent.Sites.Cmds
+            local Settings = script.Parent.Parent.Parent.Sites.Settings
+            local Info = script.Parent.Parent.Parent.Sites.Info
+            local Search = script.Parent.Parent.Parent.Sites.Search
+
+            local button = script.Parent
+
+            function leftClick()
+                Search.Visible = false
+                Home.Visible = false
+                Teleport.Visible = true
+                Cmds.Visible = false
+                Settings.Visible = false
+                Info.Visible = false
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(DGHUM_fake_script)()
+        local function MFTM_fake_script() -- Cmds.LocalScript 
+            local script = Instance.new('LocalScript', Cmds)
+
+            local Home = script.Parent.Parent.Parent.Sites.Home
+            local Teleport = script.Parent.Parent.Parent.Sites.Teleports
+            local Cmds = script.Parent.Parent.Parent.Sites.Cmds
+            local Settings = script.Parent.Parent.Parent.Sites.Settings
+            local Info = script.Parent.Parent.Parent.Sites.Info
+            local Search = script.Parent.Parent.Parent.Sites.Search
+
+            local button = script.Parent
+
+            function leftClick()
+                Search.Visible = false
+                Home.Visible = false
+                Teleport.Visible = false
+                Cmds.Visible = true
+                Settings.Visible = false
+                Info.Visible = false
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(MFTM_fake_script)()
+        local function HJGQ_fake_script() -- Search.LocalScript 
+            local script = Instance.new('LocalScript', Search)
+
+            local Home = script.Parent.Parent.Parent.Sites.Home
+            local Teleport = script.Parent.Parent.Parent.Sites.Teleports
+            local Cmds = script.Parent.Parent.Parent.Sites.Cmds
+            local Settings = script.Parent.Parent.Parent.Sites.Settings
+            local Info = script.Parent.Parent.Parent.Sites.Info
+            local Search = script.Parent.Parent.Parent.Sites.Search
+
+            local button = script.Parent
+
+            function leftClick()
+                Search.Visible = true
+                Home.Visible = false
+                Teleport.Visible = false
+                Cmds.Visible = false
+                Settings.Visible = false
+                Info.Visible = false
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(HJGQ_fake_script)()
+        local function SURQ_fake_script() -- Username.LocalScript 
+            local script = Instance.new('LocalScript', Username)
+
+            local text = script.Parent.Parent.Username
+
+            text.Text = "Username: " .. game.Players.LocalPlayer.Name
+        end
+        coroutine.wrap(SURQ_fake_script)()
+        local function YQCCP_fake_script() -- watext.LocalScript 
+            local script = Instance.new('LocalScript', watext)
+
+            local text = script.Parent.Parent.watext
+
+            local http_request = http_request;
+            if syn then
+                http_request = syn.request
+            else
+                http_request = request
+            end
+
+            while wait(5) do
+                
+                text.Text = "Thanks For Buying Ghoul's Alt Control & Enjoy It!"
+            end
+        end
+        coroutine.wrap(YQCCP_fake_script)()
+        local function ONSSF_fake_script() -- TextButton.LocalScript 
+            local script = Instance.new('LocalScript', TextButton)
+
+            local button = script.Parent
+
+            function leftClick()
+                game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-413, 23, -286)
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(ONSSF_fake_script)()
+        local function MZPROM_fake_script() -- TextButton_2.LocalScript 
+            local script = Instance.new('LocalScript', TextButton_2)
+
+            local button = script.Parent
+
+            function leftClick()
+                game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-260, 22, -763)
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(MZPROM_fake_script)()
+        local function NINLFE_fake_script() -- TextButton_3.LocalScript 
+            local script = Instance.new('LocalScript', TextButton_3)
+
+            local button = script.Parent
+
+            function leftClick()
+                game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(658, 48, -73)
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(NINLFE_fake_script)()
+        local function UNVTO_fake_script() -- TextButton_4.LocalScript 
+            local script = Instance.new('LocalScript', TextButton_4)
+
+            local button = script.Parent
+
+            function leftClick()
+                game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-932, 22, -483)
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(UNVTO_fake_script)()
+        local function MOSNQAL_fake_script() -- TextButton_5.LocalScript 
+            local script = Instance.new('LocalScript', TextButton_5)
+
+            local button = script.Parent
+
+            function leftClick()
+                game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-653, 22, 252)
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(MOSNQAL_fake_script)()
+        local function BDTR_fake_script() -- TextButton_6.LocalScript 
+            local script = Instance.new('LocalScript', TextButton_6)
+
+            local button = script.Parent
+
+            function leftClick()
+                game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-266, 0, -339)
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(BDTR_fake_script)()
+        local function NPTG_fake_script() -- TextButton_7.LocalScript 
+            local script = Instance.new('LocalScript', TextButton_7)
+
+            local button = script.Parent
+
+            function leftClick()
+                game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(205, 38, 200011)
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(NPTG_fake_script)()
+        local function NHRGVC_fake_script() -- TextButton_8.LocalScript 
+            local script = Instance.new('LocalScript', TextButton_8)
+
+            local button = script.Parent
+
+            function leftClick()
+                game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(72, 139, -686)
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(NHRGVC_fake_script)()
+        local function QALRU_fake_script() -- TextButton_9.LocalScript 
+            local script = Instance.new('LocalScript', TextButton_9)
+
+            local button = script.Parent
+
+            function leftClick()
+                game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-275, 26, -21)
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(QALRU_fake_script)()
+        local function AOSAXLW_fake_script() -- TextButton_10.LocalScript 
+            local script = Instance.new('LocalScript', TextButton_10)
+
+            local button = script.Parent
+
+            function leftClick()
+                game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(482, 48, -620)
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(AOSAXLW_fake_script)()
+        local function XXYN_fake_script() -- TextButton_11.LocalScript 
+            local script = Instance.new('LocalScript', TextButton_11)
+
+            local button = script.Parent
+
+            function leftClick()
+                game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-581, 8, -735)
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(XXYN_fake_script)()
+        local function IGPQZ_fake_script() -- TextButton_12.LocalScript 
+            local script = Instance.new('LocalScript', TextButton_12)
+
+            local button = script.Parent
+
+            function leftClick()
+                game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-872, -38, -585)
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(IGPQZ_fake_script)()
+        local function XGCD_fake_script() -- Search_2.LocalScript 
+            local script = Instance.new('LocalScript', Search_2)
+
+            local usname = script.Parent.username
+
+            local button = script.Parent.searchBTN
+            local cash = script.Parent.cash
+            local wanted = script.Parent.wanted
+
+            function leftClick()
+                local fuckkk = script.Parent.UserIMG
+                local aaakakakkakaka = script.Parent.TextBox.Text
+                local player = game:GetService("Players")[aaakakakkakaka]
+
+                local userId = player.UserId
+
+                local thumbType = Enum.ThumbnailType.AvatarBust
+
+                local thumbSize = Enum.ThumbnailSize.Size420x420
+
+                local content, isReady = game.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+
+                fuckkk.Image = content
+
+                usname.Text = "Username: " .. tostring(aaakakakkakaka)
+                cash.Text = "Money: " .. game:GetService("Players")[tostring(aaakakakkakaka)].DataFolder.Currency.Value
+                wanted.Text = "Wanted: " ..
+                                  game:GetService("Players")[tostring(aaakakakkakaka)].DataFolder.Information.Wanted
+                                      .Value
+            end
+
+            button.MouseButton1Click:Connect(leftClick)
+        end
+        coroutine.wrap(XGCD_fake_script)()
+        local function PJUHTHR_fake_script() -- Main.LocalScript 
+            local script = Instance.new('LocalScript', Main)
+
+            local s = script.Parent.Parent.Main
+
+            s.Draggable = true
+            s.Active = true
+            s.Selectable = true
+        end
+        coroutine.wrap(PJUHTHR_fake_script)()
+
+    end
+
+    for i, v in pairs(getgenv().alts) do
+
+        if v == game.Players.LocalPlayer.UserId then
+
+            Clip = false
+
+            local speaker = game.Players.LocalPlayer
+            wait(0.1)
+            local function NoclipLoop()
+                if Clip == false and speaker.Character ~= nil then
+                    for _, child in pairs(speaker.Character:GetDescendants()) do
+                        if child:IsA("BasePart") and child.CanCollide == true and child.Name ~= floatName then
+                            child.CanCollide = false
+                        end
+                    end
+                end
+            end
+            Noclipping = game:GetService('RunService').Stepped:Connect(NoclipLoop)
+            workspace:FindFirstChildOfClass('Terrain').WaterWaveSize = 0
+            workspace:FindFirstChildOfClass('Terrain').WaterWaveSpeed = 0
+            workspace:FindFirstChildOfClass('Terrain').WaterReflectance = 0
+            workspace:FindFirstChildOfClass('Terrain').WaterTransparency = 0
+            game:GetService("Lighting").GlobalShadows = false
+            game:GetService("Lighting").FogEnd = 9e9
+            settings().Rendering.QualityLevel = 1
+            for i, v in pairs(game:GetDescendants()) do
+                if v:IsA("Part") or v:IsA("UnionOperation") or v:IsA("MeshPart") or v:IsA("CornerWedgePart") or
+                    v:IsA("TrussPart") then
+                    v.Material = "Plastic"
+                    v.Reflectance = 0
+                elseif v:IsA("Decal") then
+                    v.Transparency = 1
+                elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+                    v.Lifetime = NumberRange.new(0)
+                elseif v:IsA("Explosion") then
+                    v.BlastPressure = 1
+                    v.BlastRadius = 1
+                end
+            end
+            for i, v in pairs(game:GetService("Lighting"):GetDescendants()) do
+                if v:IsA("BlurEffect") or v:IsA("SunRaysEffect") or v:IsA("ColorCorrectionEffect") or
+                    v:IsA("BloomEffect") or v:IsA("DepthOfFieldEffect") then
+                    v.Enabled = false
+                end
+            end
+            workspace.DescendantAdded:Connect(function(child)
+                coroutine.wrap(function()
+                    if child:IsA('ForceField') then
+                        game:GetService('RunService').Heartbeat:Wait()
+                        child:Destroy()
+                    elseif child:IsA('Sparkles') then
+                        game:GetService('RunService').Heartbeat:Wait()
+                        child:Destroy()
+                    elseif child:IsA('Smoke') or child:IsA('Fire') then
+                        game:GetService('RunService').Heartbeat:Wait()
+                        child:Destroy()
+                    end
+                end)()
+            end)
+
+            local timeBegan = tick()
+            for i, v in ipairs(workspace:GetDescendants()) do
+                if v:IsA("BasePart") then
+                    v.Material = "SmoothPlastic"
+                end
+            end
+            for i, v in ipairs(game:GetService("Lighting"):GetChildren()) do
+                v:Destroy()
+            end
+            local timeEnd = tick() - timeBegan
+            local timeMS = math.floor(timeEnd * 1000)
+
+            local decalsyeeted = true -- Leaving this on makes games look shitty but the fps goes up by at least 20.
+            local g = game
+            local w = g.Workspace
+            local l = g.Lighting
+            local t = w.Terrain
+            t.WaterWaveSize = 0
+            t.WaterWaveSpeed = 0
+            t.WaterReflectance = 0
+            t.WaterTransparency = 0
+            l.GlobalShadows = false
+            l.FogEnd = 9e9
+            l.Brightness = 0
+            settings().Rendering.QualityLevel = "Level01"
+            for i, v in pairs(g:GetDescendants()) do
+                if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
+                    v.Material = "Plastic"
+                    v.Reflectance = 0
+                elseif v:IsA("Decal") or v:IsA("Texture") and decalsyeeted then
+                    v.Transparency = 1
+                elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+                    v.Lifetime = NumberRange.new(0)
+                elseif v:IsA("Explosion") then
+                    v.BlastPressure = 1
+                    v.BlastRadius = 1
+                elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") then
+                    v.Enabled = false
+                elseif v:IsA("MeshPart") then
+                    v.Material = "Plastic"
+                    v.Reflectance = 0
+                    v.TextureID = 10385902758728957
+                end
+            end
+            for i, e in pairs(l:GetChildren()) do
+                if e:IsA("BlurEffect") or e:IsA("SunRaysEffect") or e:IsA("ColorCorrectionEffect") or
+                    e:IsA("BloomEffect") or e:IsA("DepthOfFieldEffect") then
+                    e.Enabled = false
+                end
+            end
+
+            local decalsyeeted = true -- Leaving this on makes games look shitty but the fps goes up by at least 20.
+            local g = game
+            local w = g.Workspace
+            local l = g.Lighting
+            local t = w.Terrain
+            t.WaterWaveSize = 0
+            t.WaterWaveSpeed = 0
+            t.WaterReflectance = 0
+            t.WaterTransparency = 0
+            l.GlobalShadows = false
+            l.FogEnd = 9e9
+            l.Brightness = 0
+            settings().Rendering.QualityLevel = "Level01"
+            for i, v in pairs(g:GetDescendants()) do
+                if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
+                    v.Material = "Plastic"
+                    v.Reflectance = 0
+                elseif v:IsA("Decal") or v:IsA("Texture") and decalsyeeted then
+                    v.Transparency = 1
+                elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+                    v.Lifetime = NumberRange.new(0)
+                elseif v:IsA("Explosion") then
+                    v.BlastPressure = 1
+                    v.BlastRadius = 1
+                elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") then
+                    v.Enabled = false
+                elseif v:IsA("MeshPart") then
+                    v.Material = "Plastic"
+                    v.Reflectance = 0
+                    v.TextureID = 10385902758728957
+                end
+            end
+            for i, e in pairs(l:GetChildren()) do
+                if e:IsA("BlurEffect") or e:IsA("SunRaysEffect") or e:IsA("ColorCorrectionEffect") or
+                    e:IsA("BloomEffect") or e:IsA("DepthOfFieldEffect") then
+                    e.Enabled = false
+                end
+            end
+
+            function RandomVariable(length)
+                local res = ""
+                for i = 1, length do
+                    res = res .. string.char(math.random(97, 122))
+                end
+                return res
+            end
+
+            -- Gui to Lua
+            -- Version: 3.2
+            game:GetService("RunService"):Set3dRenderingEnabled(false)
+            -- Instances:
+
+            local PSiwshuwDUItgsuiz = Instance.new("ScreenGui")
+            local Frame = Instance.new("Frame")
+            local TextLabel = Instance.new("TextLabel")
+            local TextButton = Instance.new("TextButton")
+            local UICorner = Instance.new("UICorner")
+            local TextButton_2 = Instance.new("TextButton")
+            local UICorner_2 = Instance.new("UICorner")
+            local TextButton_3 = Instance.new("TextButton")
+            local UICorner_3 = Instance.new("UICorner")
+            local TextLabel_2 = Instance.new("TextLabel")
+            local TextLabel_3 = Instance.new("TextLabel")
+            local TextLabel_4 = Instance.new("TextLabel")
+
+            -- Properties:
+
+            PSiwshuwDUItgsuiz.Name = RandomVariable(20)
+            PSiwshuwDUItgsuiz.Parent = game.CoreGui
+            PSiwshuwDUItgsuiz.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+            PSiwshuwDUItgsuiz.IgnoreGuiInset = true
+            Frame.Parent = PSiwshuwDUItgsuiz
+            Frame.AnchorPoint = Vector2.new(0.5, 0.5)
+            Frame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+            Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
+            Frame.Size = UDim2.new(1, 0, 1, 36)
+
+            TextLabel.Parent = Frame
+            TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            TextLabel.BackgroundTransparency = 1.000
+            TextLabel.BorderSizePixel = 0
+            TextLabel.Position = UDim2.new(0.379002213, 0, 0.0237247907, 0)
+            TextLabel.Size = UDim2.new(0, 325, 0, 54)
+            TextLabel.Font = Enum.Font.Code
+            TextLabel.Text = "Haunted's Alt Control"
+            TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+            TextLabel.TextScaled = true
+            TextLabel.TextSize = 14.000
+            TextLabel.TextWrapped = true
+
+            TextButton.Parent = Frame
+            TextButton.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+            TextButton.Position = UDim2.new(0.161833167, 0, 0.12319342, 0)
+            TextButton.Size = UDim2.new(0, 274, 0, 72)
+            TextButton.Font = Enum.Font.Code
+            TextButton.Text = " Copy Discord "
+            TextButton.TextColor3 = Color3.fromRGB(220, 220, 220)
+            TextButton.TextScaled = true
+            TextButton.TextSize = 14.000
+            TextButton.TextWrapped = true
+
+            UICorner.Parent = TextButton
+
+            TextButton_2.Parent = Frame
+            TextButton_2.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+            TextButton_2.Position = UDim2.new(0.397871882, 0, 0.12319342, 0)
+            TextButton_2.Size = UDim2.new(0, 274, 0, 72)
+            TextButton_2.Font = Enum.Font.Code
+            TextButton_2.Text = "  Copy Group  "
+            TextButton_2.TextColor3 = Color3.fromRGB(220, 220, 220)
+            TextButton_2.TextScaled = true
+            TextButton_2.TextSize = 14.000
+            TextButton_2.TextWrapped = true
+
+            UICorner_2.Parent = TextButton_2
+
+            TextButton_3.Parent = Frame
+            TextButton_3.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+            TextButton_3.Position = UDim2.new(0.633166015, 0, 0.12319342, 0)
+            TextButton_3.Size = UDim2.new(0, 274, 0, 72)
+            TextButton_3.Font = Enum.Font.Code
+            TextButton_3.Text = "  Leave Game  "
+            TextButton_3.TextColor3 = Color3.fromRGB(220, 220, 220)
+            TextButton_3.TextScaled = true
+            TextButton_3.TextSize = 14.000
+            TextButton_3.TextWrapped = true
+
+            UICorner_3.Parent = TextButton_3
+
+            TextLabel_2.Parent = Frame
+            TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            TextLabel_2.BackgroundTransparency = 1.000
+            TextLabel_2.BorderSizePixel = 0
+            TextLabel_2.Position = UDim2.new(0.378997803, 0, 0.869513631, 0)
+            TextLabel_2.Size = UDim2.new(0, 325, 0, 54)
+            TextLabel_2.Font = Enum.Font.Code
+            TextLabel_2.Text = "Haunted Alt Control W!"
+            TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+            TextLabel_2.TextScaled = true
+            TextLabel_2.TextSize = 14.000
+            TextLabel_2.TextWrapped = true
+
+            TextLabel_3.Parent = Frame
+            TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            TextLabel_3.BackgroundTransparency = 1.000
+            TextLabel_3.BorderSizePixel = 0
+            TextLabel_3.Position = UDim2.new(0.161833152, 0, 0.290628701, 0)
+            TextLabel_3.Size = UDim2.new(0, 907, 0, 54)
+            TextLabel_3.Font = Enum.Font.Code
+            TextLabel_3.Text = "Name: HOLDERRR"
+            TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+            TextLabel_3.TextSize = 49.000
+            TextLabel_3.TextWrapped = true
+            TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+
+            TextLabel_4.Parent = Frame
+            TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            TextLabel_4.BackgroundTransparency = 1.000
+            TextLabel_4.BorderSizePixel = 0
+            TextLabel_4.Position = UDim2.new(0.161833152, 0, 0.371293008, 0)
+            TextLabel_4.Size = UDim2.new(0, 907, 0, 54)
+            TextLabel_4.Font = Enum.Font.Code
+            TextLabel_4.Text = "Money: HOLDER"
+            TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+            TextLabel_4.TextSize = 49.000
+            TextLabel_4.TextWrapped = true
+            TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+            -- Scripts:
+
+            local function XCBMJ_fake_script() -- Frame.LocalScript 
+                local script = Instance.new('LocalScript', Frame)
+
+                local StarterGui = game:GetService("StarterGui")
+                StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Health, false)
+
+                local StarterGui = game:GetService("StarterGui")
+                StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.All, false)
+
+                local StarterGui = game:GetService("StarterGui")
+                StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.All, false)
+                StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
+
+                local StarterGui = game:GetService("StarterGui")
+                StarterGui:SetCore("TopbarEnabled", false)
+
+                local UIS = game:GetService("UserInputService")
+                UIS.ModalEnabled = true
+            end
+            coroutine.wrap(XCBMJ_fake_script)()
+            local function PPEQE_fake_script() -- TextButton.LocalScript 
+                local script = Instance.new('LocalScript', TextButton)
+
+                local button = script.Parent
+
+                function leftClick()
+                    setclipboard("https://discord.gg/SVsSWaEr")
+                end
+
+                button.MouseButton1Click:Connect(leftClick)
+            end
+            coroutine.wrap(PPEQE_fake_script)()
+            local function CDDHNKJ_fake_script() -- TextButton_2.LocalScript 
+                local script = Instance.new('LocalScript', TextButton_2)
+
+                local button = script.Parent
+
+                function leftClick()
+                    setclipboard(
+                        "https://web.roblox.com/groups/14070771/Almighty-Shooters#!/about")
+                end
+
+                button.MouseButton1Click:Connect(leftClick)
+            end
+            coroutine.wrap(CDDHNKJ_fake_script)()
+            local function RUQFMCI_fake_script() -- TextButton_3.LocalScript 
+                local script = Instance.new('LocalScript', TextButton_3)
+
+                local button = script.Parent
+
+                function leftClick()
+                    game.Players.LocalPlayer:Kick('Left game succcessfully.')
+                end
+
+                button.MouseButton1Click:Connect(leftClick)
+            end
+            coroutine.wrap(RUQFMCI_fake_script)()
+            local function PJZGR_fake_script() -- TextLabel_3.LocalScript 
+                local script = Instance.new('LocalScript', TextLabel_3)
+
+                local text = script.Parent
+
+                text.Text = "Name: " .. game.Players.LocalPlayer.Name
+            end
+            coroutine.wrap(PJZGR_fake_script)()
+            local function WDTSQEC_fake_script() -- TextLabel_4.LocalScript 
+                local script = Instance.new('LocalScript', TextLabel_4)
+
+                local text = script.Parent
+
+                while wait() do
+                    text.Text = "Money: " ..
+                                    game:GetService("Players").LocalPlayer.PlayerGui.MainScreenGui.MoneyText.Text
+                end
+            end
+            coroutine.wrap(WDTSQEC_fake_script)()
+
+            local RunService = game:GetService("RunService")
+            local MaxFPS = getgenv().altFPS
+            while true do
+                local t0 = tick()
+                RunService.Heartbeat:Wait()
+                repeat
+                until (t0 + 1 / MaxFPS) < tick()
+            end
+        end
+    end
+
+else
+    game.Players.LocalPlayer:Kick("Only da hood.")
+end
+
+local theGroup = 14070771 -- your group id here
+if game.Players.LocalPlayer:GetRankInGroup(theGroup) == 2 then
+    print('Whitelisted')
+else
+    game.Players.LocalPlayer:Kick('Nigger Tryed To Bypass Buy It Faggot!')
+end
